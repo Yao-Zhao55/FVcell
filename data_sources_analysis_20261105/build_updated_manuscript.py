@@ -102,14 +102,18 @@ def build_pages(summary: dict, plot: Path) -> list[list[dict]]:
         "Drug-to-organ transfer still requires matched exposure and tissue data. The glioma study lacks pharmacokinetic and "
         "brain/tumor exposure measurements [12]; we do not infer blood-brain barrier transport or clinical benefit."
     )
+    pages[9][9]["text"] = (
+        "The research package includes frozen response permissions, data receipts, row assignments, feature and "
+        "checkpoint hashes, observation masks, method-task summaries, seed-level external scores and matched controls. "
+        "The external audit reconstructs saved predictions without retraining. Code, frozen protocols, scalar "
+        "results, figures and provenance receipts are publicly available at "
+        "https://github.com/Yao-Zhao55/FVcell (commit dec9b0e0a2f2053f94404d65f78dd364c8ccdc5b). "
+        "Public source matrices remain at their original repositories and subject to their terms; raw matrices "
+        "and model weights are not redistributed. No DOI-archived release has been minted."
+    )
     pages[9][10]["text"] = (
         "GSE278572 is evaluated from complete counts under the frozen protocol described above. "
-        "The closer genome-scale CD4 resource at Zenodo 18876252 remains embargoed and contributes no labels. "
-        "No public archival source-code release is documented for this draft."
-    )
-    pages[9][9]["text"] = pages[9][9]["text"].replace(
-        "This is a working manuscript, not a claim that submission or public release has occurred.",
-        "This draft is pending a documented public archival source-code release."
+        "The closer genome-scale CD4 resource at Zenodo 18876252 remains embargoed and contributes no labels."
     )
     evidence_table = pages[15][1]
     assert evidence_table["rows"][1][0] == "Tumor-cell pharmacology"
