@@ -1,0 +1,25 @@
+{
+  "state": "complete",
+  "source_study": "Replogle2022",
+  "external_cells": "K562 and RPE1, no primary-T confirmation",
+  "test_rows": 1038,
+  "test_targets": 519,
+  "shared_genes": 6795,
+  "source_model_SHA256": {
+    "full_experiments\\runs\\E1_external_study_P1\\fv\\11\\model.pt": "f7784f5c00aed1bc45f98dbae6493c7da2789e2c7e5d9eef684db7fa8451cadd",
+    "full_experiments\\runs\\E1_external_study_P1\\fv\\29\\model.pt": "69255c74a28ce49760081f6465fa4fc19dc7533b9851ae9a625e5f5f9c60dd68",
+    "full_experiments\\runs\\E1_external_study_P1\\fv\\47\\model.pt": "18b0fb1101487c1f07310d754207b05fae70feb0ccf7d8467eb89116438d405a",
+    "full_experiments\\runs\\E1_external_study_P1\\concat\\11\\model.pt": "b5e1c4e5c33d40687a9afdc173ab7c46228945fd8ac421e3a807c951688e0671",
+    "full_experiments\\runs\\E1_external_study_P1\\concat\\29\\model.pt": "60f9ca31d00b982ef41f2a6758e76035ede7dcf6b7bad81428c4c9010b890729",
+    "full_experiments\\runs\\E1_external_study_P1\\concat\\47\\model.pt": "574e4de37bf21e9b37681d57813eee98e45ae832427b2cd248f2b1031955fe84",
+    "full_experiments\\runs\\E1_external_study_P1\\state_official\\11\\model.pt": "7906eefe52f24631274a54bf2ce142c75169793b4d814d9df1c327e262cb31c6",
+    "full_experiments\\runs\\E1_external_study_P1\\state_official\\29\\model.pt": "e3202773e01d17d42f8a910a76f29f5f5b23363e1a149bd998ae1d2349c80aa0",
+    "full_experiments\\runs\\E1_external_study_P1\\state_official\\47\\model.pt": "efaaa4620a7a84f2d9b89f00dc51afd17c4d070b8cc80a24ca798eec215689c8",
+    "full_experiments\\runs\\E1_external_study_P1\\ridge\\ridge_model.npz": "a3693a065552b5abf25a1c1fb059ae207a856e859a7b8c61be0e4509d21db3f2"
+  },
+  "source_input_schema_and_full_retained_counts_checked": true,
+  "prior_test_exposure": true,
+  "retrained_models": 0,
+  "positive_controls": 63,
+  "updated_epoch": 1793032188.234932
+}

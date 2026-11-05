@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-27",
+  "study": "Replogle et al. 2022, K562/RPE1; independent of primary-T GWT experiment, strongly shifted cell backgrounds",
+  "purpose": "Recheck saved held-study outputs and add predefined readouts, positive/negative controls before writing; not a new pristine confirmatory test",
+  "selection": "Only original GWT selection donor; no external training or selection; no new fitting",
+  "models": [
+    "fv",
+    "concat",
+    "state_official",
+    "ridge",
+    "zero",
+    "training_mean",
+    "same_target_mean"
+  ],
+  "metrics": [
+    "equal-cell-line/target MAE",
+    "Pearson delta",
+    "direction |gold|>0.1",
+    "truth-aligned amplitude",
+    "within-cell-line cosine retrieval with ties"
+  ],
+  "negative": "20 wrong-target derangements, seed20261027",
+  "positive": "guide-disjoint halves when at least two distinct guide assignments available, all control guide assignments split alternately; >=5 cells each target half and control half",
+  "uncertainty": "2000 paired target-cluster bootstrap draws, descriptive conditional on these targets; not donor replication",
+  "source_retention": "All 6795 shared published retained genes; no outcome-based external gene selection; this is not raw realignment or all-genome coverage",
+  "prior_test_exposure": "Original MAE and other existing outputs already examined; additional analyses are exploratory"
+}
