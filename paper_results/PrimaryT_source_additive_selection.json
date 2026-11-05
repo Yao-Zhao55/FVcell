@@ -1,0 +1,89 @@
+{
+  "grid": [
+    {
+      "shared_weight": 0.0,
+      "context_weight": 0.0,
+      "source_validation_MAE": 0.25101344623456107
+    },
+    {
+      "shared_weight": 0.0,
+      "context_weight": 0.25,
+      "source_validation_MAE": 0.25052187210884164
+    },
+    {
+      "shared_weight": 0.0,
+      "context_weight": 0.5,
+      "source_validation_MAE": 0.2502674283701432
+    },
+    {
+      "shared_weight": 0.0,
+      "context_weight": 1.0,
+      "source_validation_MAE": 0.2506685123542743
+    },
+    {
+      "shared_weight": 0.25,
+      "context_weight": 0.0,
+      "source_validation_MAE": 0.2521553764992139
+    },
+    {
+      "shared_weight": 0.25,
+      "context_weight": 0.25,
+      "source_validation_MAE": 0.2516979302842972
+    },
+    {
+      "shared_weight": 0.25,
+      "context_weight": 0.5,
+      "source_validation_MAE": 0.25146132676639027
+    },
+    {
+      "shared_weight": 0.25,
+      "context_weight": 1.0,
+      "source_validation_MAE": 0.25171327991218573
+    },
+    {
+      "shared_weight": 0.5,
+      "context_weight": 0.0,
+      "source_validation_MAE": 0.2567172825901193
+    },
+    {
+      "shared_weight": 0.5,
+      "context_weight": 0.25,
+      "source_validation_MAE": 0.25627927670410977
+    },
+    {
+      "shared_weight": 0.5,
+      "context_weight": 0.5,
+      "source_validation_MAE": 0.25603393291977916
+    },
+    {
+      "shared_weight": 0.5,
+      "context_weight": 1.0,
+      "source_validation_MAE": 0.2561531574828379
+    },
+    {
+      "shared_weight": 1.0,
+      "context_weight": 0.0,
+      "source_validation_MAE": 0.273885477031559
+    },
+    {
+      "shared_weight": 1.0,
+      "context_weight": 0.25,
+      "source_validation_MAE": 0.273483049771068
+    },
+    {
+      "shared_weight": 1.0,
+      "context_weight": 0.5,
+      "source_validation_MAE": 0.2732373548083106
+    },
+    {
+      "shared_weight": 1.0,
+      "context_weight": 1.0,
+      "source_validation_MAE": 0.2732300100074585
+    }
+  ],
+  "selected": {
+    "shared_weight": 0.0,
+    "context_weight": 0.5
+  },
+  "external_outcomes_used_for_selection": false
+}

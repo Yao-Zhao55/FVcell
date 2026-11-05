@@ -1,0 +1,22 @@
+{
+  "state": "passed",
+  "complete_raw_count_streams": 2,
+  "gzip_CRC_verified": true,
+  "source_files_hash_verified": 17,
+  "protocol_sha256": "386e687008c4f1eedf904cc3c0fd8d4d777fd4ce93a8b6c45d19227856f14696",
+  "gene_IDs_unique": true,
+  "all_112_gold_rows_rebuilt_from_guide_counts": true,
+  "maximum_gold_rebuild_error": 2.370685612262946e-07,
+  "maximum_control_rebuild_error": 4.7654120116646936e-07,
+  "output_genes": 18103,
+  "missing_input_genes_source_imputed_and_output_masked": 26,
+  "all_conditions_balanced_targets": 28,
+  "all_seed_condition_rows": 68,
+  "all_target_model_seed_rows": 1904,
+  "wrong_target_rows": 160,
+  "positive_control_rows": 112,
+  "positive_control_retrieval_warning": "singleton pair calculations have trivial retrieval=1; not a valid panel retrieval estimate and not reported as such",
+  "external_response_training_or_selection": false,
+  "not_independent_donor_or_laboratory_validation": true,
+  "updated_epoch": 1793049074.6142282
+}

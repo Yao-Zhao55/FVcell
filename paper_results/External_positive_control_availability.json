@@ -1,0 +1,14 @@
+[
+  {
+    "cell_line": "K562",
+    "all_shared_targets": 519,
+    "targets_with_two_guide_halves": 31,
+    "guide_halves_are_not_donors": true
+  },
+  {
+    "cell_line": "RPE1",
+    "all_shared_targets": 519,
+    "targets_with_two_guide_halves": 32,
+    "guide_halves_are_not_donors": true
+  }
+]

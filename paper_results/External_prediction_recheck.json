@@ -1,0 +1,62 @@
+[
+  {
+    "family": "fv",
+    "seed": 11,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "fv",
+    "seed": 29,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "fv",
+    "seed": 47,
+    "max_MAE_difference_from_original": 2.220446049250313e-16
+  },
+  {
+    "family": "concat",
+    "seed": 11,
+    "max_MAE_difference_from_original": 8.326672684688674e-17
+  },
+  {
+    "family": "concat",
+    "seed": 29,
+    "max_MAE_difference_from_original": 2.220446049250313e-16
+  },
+  {
+    "family": "concat",
+    "seed": 47,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "state_official",
+    "seed": 11,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "state_official",
+    "seed": 29,
+    "max_MAE_difference_from_original": 9.71445146547012e-17
+  },
+  {
+    "family": "state_official",
+    "seed": 47,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "ridge",
+    "seed": 0,
+    "max_MAE_difference_from_original": 2.220446049250313e-16
+  },
+  {
+    "family": "zero",
+    "seed": 0,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  },
+  {
+    "family": "training_mean",
+    "seed": 0,
+    "max_MAE_difference_from_original": 1.1102230246251565e-16
+  }
+]

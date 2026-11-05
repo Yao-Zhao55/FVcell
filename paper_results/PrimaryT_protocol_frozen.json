@@ -1,0 +1,116 @@
+{
+  "version": "external-GSE278572-v1-20261027",
+  "registered_utc": "2026-10-26T16:12:18.587189+00:00",
+  "dataset": "GSE278572; Arce et al.; separate experiment from GWT; overlapping laboratories, not a lab-held-out test",
+  "verified_intervention": "Zim3-dCas9 CRISPRi for Perturb-CITE-seq, despite knockout experiments elsewhere in the paper",
+  "study_donors": "Two donors pooled before sequencing; identities unavailable, disjointness from GWT cannot be established",
+  "source_training": "Existing read-only GWT P1 donor checkpoints; no new model selection or fine-tuning using this study",
+  "test_primary": [
+    "Resting_Teff",
+    "Stimulated_Teff"
+  ],
+  "test_secondary": [
+    "Resting_Treg",
+    "Stimulated_Treg"
+  ],
+  "context_mapping": {
+    "Resting_Teff": "Rest",
+    "Stimulated_Teff": "Stim48hr",
+    "Resting_Treg": "Rest",
+    "Stimulated_Treg": "Stim48hr"
+  },
+  "cell_filter": {
+    "one_guide_from_cellranger": true,
+    "minimum_GEX_UMI": 1000,
+    "minimum_GEX_features": 500,
+    "maximum_mito_fraction": 0.2,
+    "hashtag_top_UMI_minimum": 50,
+    "hashtag_top_to_runner_ratio_minimum": 3
+  },
+  "cell_filter_basis": "Fixed count/QC criteria before reading matrix; no perturbation effect, significance, or model score filtering",
+  "hashtag_mapping": "Feature IDs HTO_1..4 and author-provided feature names; not inferred from response expression",
+  "target_minimum_cells_per_condition": 50,
+  "NTC_minimum_cells_per_condition": 200,
+  "target_universe": "All unique mapped non-control single-guide targets meeting fixed count-only criteria; targets may have been seen in GWT",
+  "gene_universe": "Intersection of all source model reference genes with external Gene Expression Ensembl IDs, no DE/HVG filtering on external outcomes",
+  "missing_inputs": "Unmeasured control input genes imputed by mean of SOURCE training-donor control log2CPM, separately by culture; never impute missing gold",
+  "unmeasured_output_genes": "Masked out, never assigned zero truth",
+  "unit": "log2(1+CPM_target)-log2(1+CPM_NTC); library size uses all external Gene Expression features, excluding antibody and guide counts",
+  "aggregation": "Pool QC counts over cells and guides within target x hashtag; mixed two donors are one experimental aggregate, not two independent replicates",
+  "primary_checkpoint_group": "hierarchical_donor_fold0 with three prespecified seeds; fold0 fixed before observing external gold",
+  "neural_models": [
+    "hierarchical",
+    "fixed_gaussian",
+    "fv_continued",
+    "concat_original_P1"
+  ],
+  "baselines": [
+    "zero",
+    "source_training_mean",
+    "source_same_target_mean",
+    "source_ridge_P1",
+    "source_shrunk_additive"
+  ],
+  "secondary_checkpoint_groups": "Other three existing donor folds, descriptive sensitivity if feasible; no best-fold selection",
+  "metrics": {
+    "primary": "equal hashtag then equal target MAE over all observed shared genes",
+    "secondary": [
+      "centered Pearson delta",
+      "direction accuracy for absolute gold >0.1",
+      "truth-aligned amplitude",
+      "within-condition cosine target retrieval with average ties"
+    ],
+    "uncertainty": "2000 paired target-cluster bootstrap draws; descriptive across prespecified targets, not a population-donor confidence interval"
+  },
+  "controls": {
+    "wrong_target": 20,
+    "permutation_seed": 20261027,
+    "positive": "Guide-disjoint target and NTC count aggregates on same gene universe; guides sorted then alternate split; report availability and measurement agreement"
+  },
+  "prohibited": [
+    "test-driven hyperparameters",
+    "significance-filtered gold",
+    "RNA response as teacher",
+    "select best tissue/fold/seed",
+    "claim independent laboratory",
+    "claim donor identities verified disjoint",
+    "treat guide/cell resampling as donor replication"
+  ],
+  "prior_exposure": "An older significance-only small target panel from this publication was viewed in earlier work. Complete counts, full-vector gold and this study score have not been read; this is an exploratory external extension, not pristine preregistration.",
+  "download_bytes": 3857480145,
+  "project_total_cap_bytes": 100000000000,
+  "authors_supplied": {
+    "ordered": [
+      {
+        "name": "朱棣",
+        "affiliation": "复旦大学"
+      },
+      {
+        "name": "赵耀",
+        "affiliation": "复旦大学"
+      }
+    ],
+    "corresponding": "待定",
+    "other_authors": "待定",
+    "English_spelling": "pending author confirmation"
+  },
+  "frozen_files": {
+    "training_completion\\runs\\hierarchical_donor_fold0\\hierarchical\\11\\model.pt": "d4ae6ea5da4a43c9cae31522433f3cc24e79522439b7dd04151c9b12f8ebeb96",
+    "training_completion\\runs\\hierarchical_donor_fold0\\hierarchical\\29\\model.pt": "cb4cfa49777e50f46bfbedcca0b71fea33976423559bc2bf366c5b1b8423b849",
+    "training_completion\\runs\\hierarchical_donor_fold0\\hierarchical\\47\\model.pt": "5424309632715e253c1bb6c55f81c7c3d1094d322f509ec34ccab338923bc5ba",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fixed_gaussian\\11\\model.pt": "1da164e60855f1318ee2efbd42c3caba67ac4e4c0cc7fd3d09ac7daf46b8f935",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fixed_gaussian\\29\\model.pt": "2b99fc6a4b7eea70e576319afec0d94ede51cd73366ff7951d0fdfb79e3f43b8",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fixed_gaussian\\47\\model.pt": "da3ff9bf236843d7f0d8e33dee361cc67ae4dd4fbdf507d818878e1f31e7ca48",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fv_continued\\11\\model.pt": "ced6977b11def0849e0a31752d85cd40a3f0d4e973cd29903cc30c144784976b",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fv_continued\\29\\model.pt": "21abbeb650bd4c002c25f0fcf0a95eb789e114ef595ce232ae6a5f677250a927",
+    "training_completion\\runs\\hierarchical_donor_fold0\\fv_continued\\47\\model.pt": "9e3d852b8622536b1b82c8d7c942365731dc63dfe8f65983c76271252db836f0",
+    "full_experiments\\runs\\E1_donor_P1\\concat\\11\\model.pt": "d64f911912b7c057bac7a360bf370072c584d56afcecdf8a5d6099544ac4c741",
+    "full_experiments\\runs\\E1_donor_P1\\concat\\29\\model.pt": "4af2b1ecc47d1133a13458581bc2fa3563eebd3a30dc6391da8cebf925d299c7",
+    "full_experiments\\runs\\E1_donor_P1\\concat\\47\\model.pt": "529845eaed537d07aa269a2342f769e290eb560eaea27f4beec407ccea67d199",
+    "full_experiments\\runs\\E1_donor_P1\\ridge\\ridge_model.npz": "ca563a2f2e7a507948e2ed7e0dae13686a99e3a2f7ef625265dc540cab441919",
+    "independent_study_validation\\sources\\GSE278572_features.tsv.gz": "411d0aef6d630eee905f67ea79d1ca0608ff7bc293591aa45ca8019f234f00ba",
+    "independent_study_validation\\sources\\GSE278572_protospacer_calls_per_cell.csv.gz": "1c556df41f441987033bdfc002bc6a25f5194ec39ebbe2ace66baedb2ec3636e",
+    "independent_study_validation\\sources\\GSE278572_barcodes.tsv.gz": "0c26723009bb4e507437c49ba92e382506f676c8e3c1ba19245db1208a2514b7",
+    "independent_study_validation\\sources\\gsm_example.txt": "aecf087e080408218df9b66a4c6aea71488e20de9c079355af15329997150058"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "zero": {
+    "FV_minus_comparator_MAE": 0.004809235833765147,
+    "descriptive_target_bootstrap_95_interval": [
+      0.004555774111496971,
+      0.005056248957885081
+    ],
+    "targets": 519,
+    "not_donor_population_inference": true
+  },
+  "training_mean": {
+    "FV_minus_comparator_MAE": -0.00027191960516155907,
+    "descriptive_target_bootstrap_95_interval": [
+      -0.0006032796940561631,
+      6.235265228027774e-05
+    ],
+    "targets": 519,
+    "not_donor_population_inference": true
+  },
+  "same_target_mean": {
+    "FV_minus_comparator_MAE": -0.03417005232881781,
+    "descriptive_target_bootstrap_95_interval": [
+      -0.03751088883114538,
+      -0.03098903253001569
+    ],
+    "targets": 519,
+    "not_donor_population_inference": true
+  },
+  "ridge": {
+    "FV_minus_comparator_MAE": -0.0393836549993332,
+    "descriptive_target_bootstrap_95_interval": [
+      -0.04019521439348472,
+      -0.03857173243771907
+    ],
+    "targets": 519,
+    "not_donor_population_inference": true
+  },
+  "concat": {
+    "FV_minus_comparator_MAE": -0.08631298906815459,
+    "descriptive_target_bootstrap_95_interval": [
+      -0.08755577649341027,
+      -0.08503030743603483
+    ],
+    "targets": 519,
+    "not_donor_population_inference": true
+  }
+}

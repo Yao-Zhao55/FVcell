@@ -1,0 +1,35 @@
+{
+  "state": "complete",
+  "type": "post-hoc mechanistic illustration selected from user-supplied publications; not independent confirmation",
+  "observed_aggregates": 24,
+  "targets": 2,
+  "source_donors": 4,
+  "cultures": 3,
+  "held_donor_aggregates": 6,
+  "held_donor": "CE0008678",
+  "member_coverage": {
+    "PIAS_transcript_hypothesis": 3,
+    "Th1_cytotoxic_RNA_proxy": 6
+  },
+  "frozen_checkpoints": {
+    "training_completion/runs/hierarchical_donor_fold0/hierarchical/11/model.pt": "d4ae6ea5da4a43c9cae31522433f3cc24e79522439b7dd04151c9b12f8ebeb96",
+    "training_completion/runs/hierarchical_donor_fold0/hierarchical/29/model.pt": "cb4cfa49777e50f46bfbedcca0b71fea33976423559bc2bf366c5b1b8423b849",
+    "training_completion/runs/hierarchical_donor_fold0/hierarchical/47/model.pt": "5424309632715e253c1bb6c55f81c7c3d1094d322f509ec34ccab338923bc5ba",
+    "training_completion/runs/hierarchical_donor_fold0/fixed_gaussian/11/model.pt": "1da164e60855f1318ee2efbd42c3caba67ac4e4c0cc7fd3d09ac7daf46b8f935",
+    "training_completion/runs/hierarchical_donor_fold0/fixed_gaussian/29/model.pt": "2b99fc6a4b7eea70e576319afec0d94ede51cd73366ff7951d0fdfb79e3f43b8",
+    "training_completion/runs/hierarchical_donor_fold0/fixed_gaussian/47/model.pt": "da3ff9bf236843d7f0d8e33dee361cc67ae4dd4fbdf507d818878e1f31e7ca48",
+    "training_completion/runs/hierarchical_donor_fold0/fv_continued/11/model.pt": "ced6977b11def0849e0a31752d85cd40a3f0d4e973cd29903cc30c144784976b",
+    "training_completion/runs/hierarchical_donor_fold0/fv_continued/29/model.pt": "21abbeb650bd4c002c25f0fcf0a95eb789e114ef595ce232ae6a5f677250a927",
+    "training_completion/runs/hierarchical_donor_fold0/fv_continued/47/model.pt": "9e3d852b8622536b1b82c8d7c942365731dc63dfe8f65983c76271252db836f0",
+    "full_experiments/runs/E1_donor_P1/concat/11/model.pt": "d64f911912b7c057bac7a360bf370072c584d56afcecdf8a5d6099544ac4c741",
+    "full_experiments/runs/E1_donor_P1/concat/29/model.pt": "4af2b1ecc47d1133a13458581bc2fa3563eebd3a30dc6391da8cebf925d299c7",
+    "full_experiments/runs/E1_donor_P1/concat/47/model.pt": "529845eaed537d07aa269a2342f769e290eb560eaea27f4beec407ccea67d199"
+  },
+  "max_full_gene_MAE_reconstruction_difference": 2.552489677953851e-08,
+  "no_model_refit": true,
+  "no_external_paper_raw_data_used": true,
+  "not_mouse_double_KO_or_drug_validation": true,
+  "not_new_independent_study": true,
+  "no_confirmatory_significance_claim": true,
+  "source_protocol_sha256": "f7fd6b53f1577a984431d1f905cd59d326cdb57d62b0d93316f31a7cd91733bf"
+}
