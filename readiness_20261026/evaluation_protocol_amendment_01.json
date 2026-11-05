@@ -1,0 +1,13 @@
+{
+  "version": "FVcell-supplement-v1-amendment-01",
+  "base_protocol_sha256": "2de44d1504847b384535dcc807c93d64d9fb2ddd8742a045cb0ae496df5dd3c6",
+  "reason": "Source-code audit found that the existing DE AP uses finite published adj_p_value <= 0.1 without an effect-size cutoff. The newly proposed 0.05/0.5 definition would change the existing endpoint. Preserve the original definition rather than silently introducing a new ranking.",
+  "override": "supplemental_metrics[DE_AP]",
+  "rule": "finite published adj_p_value <= 0.1; rank absolute predicted log2FC; no effect-size filtering; report prevalence and no-positive conditions; no donor DE calls invented",
+  "evidence_file": "scripts/full_suite_run.py",
+  "evidence_sha256": "c61a38cfbea92a9dc994d0fcd6617b26f5067537693ce2ed84d7df71ca1cfe2d",
+  "affects_primary_endpoint": false,
+  "new_definition_005_05_not_executed": true,
+  "reaggregation": "four fixed donor folds x four final families x three fixed seeds; MAE/Pearson/direction only from retained test_rows.csv; no weight update or new test selection",
+  "interpretation": "exploratory recheck of already-observed outputs, not independent confirmation"
+}

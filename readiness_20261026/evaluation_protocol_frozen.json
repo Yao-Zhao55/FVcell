@@ -1,0 +1,189 @@
+{
+  "version": "FVcell-supplement-after-literature-v1",
+  "status": "specification_frozen_execution_not_claimed",
+  "frozen_at": "2026-10-26T21:49:45.819403+08:00",
+  "prior_exposure": "All earlier test summaries were observed. This supplement is exploratory, not preregistered confirmation. Independent confirmatory data are not yet secured.",
+  "original_primary_endpoint": "signed response MAE, equal target within context then equal context within donor then equal donor; retain old FV-versus-concat P2 contrast and original results",
+  "label_spaces": {
+    "pooled": "published DESeq2 log2FC, published fixed gene universe; inherited feature-curation limitations disclosed",
+    "donor": "delta_log2(1+CPM), normalization over original 18129 features, fixed donor_genes.csv; no cross-unit pooling",
+    "missingness": "true observed mask only; zeros are actual values, unknown labels not zero; no effect/significance filtering"
+  },
+  "frozen_inputs": [
+    {
+      "path": "training_completion/runs/hierarchical_donor_fold0/rows.csv",
+      "sha256": "453d907bda024d1f09da2cc0641f912c730a0b2e59b3e2075e7fb5efaf94ec35"
+    },
+    {
+      "path": "training_completion/runs/hierarchical_donor_fold1/rows.csv",
+      "sha256": "b842e7be2f2e4bf6657ece2a5345d2d8a87a6ccce2e48d3f2e2eab11f918e379"
+    },
+    {
+      "path": "training_completion/runs/hierarchical_donor_fold2/rows.csv",
+      "sha256": "0bfbc419cf1d67859ead82febadcd3e15b069dbb37095dfaf4cd9eb09900e918"
+    },
+    {
+      "path": "training_completion/runs/hierarchical_donor_fold3/rows.csv",
+      "sha256": "d424dcaef044d2966b2a7cd695f88a918e6a90ca2e3caecdb274614204a45b3b"
+    },
+    {
+      "path": "full_experiments/runs/E2_strict_P0/rows.csv",
+      "sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "path": "full_experiments/runs/E2_strict_P1/rows.csv",
+      "sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "path": "full_experiments/runs/E2_strict_P2/rows.csv",
+      "sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "path": "full_experiments/runs/E1_global_target_P1/rows.csv",
+      "sha256": "e22ba0104fd01d3d0da6c3ddc576d371e0f641f0d78f2bc6a18b66151877cb8a"
+    },
+    {
+      "path": "full_experiments/runs/E1_external_study_P1/rows.csv",
+      "sha256": "af3673aff7ceea883fe4fa2598ed01fc760399a858f7c4eb6053d8cd01cc1174"
+    }
+  ],
+  "permissions": {
+    "P0": {
+      "baseline_expression": false,
+      "allowed": "fixed target function annotations and literal context metadata",
+      "strict_training": "held validation/test target outcomes removed in all contexts"
+    },
+    "P1": {
+      "baseline_expression": true,
+      "allowed": "P0 plus allowed NTC profiles; no direct held-target response evidence",
+      "strict_training": "same supervised labels as P0"
+    },
+    "P2": {
+      "baseline_expression": true,
+      "allowed": "P1 plus same-target response in other training contexts, only frozen evidence_only/train pool",
+      "strict_training": "same supervised labels as P0/P1"
+    },
+    "global_unseen_target": "P0/P1 only; no same-target response in any source, teacher or auxiliary corpus",
+    "target_condition_response": "always forbidden",
+    "same_context_other_perturbations": "permitted only when that context belongs to training; for an unseen context no perturbation outcomes are allowed",
+    "extra_knowledge": "function annotations separate from measured DepMap/L1000/etc.; any added measured-response source becomes a different information stratum"
+  },
+  "matched_comparisons": [
+    {
+      "name": "strict information access",
+      "tasks": [
+        "E2_strict_P0",
+        "E2_strict_P1",
+        "E2_strict_P2"
+      ],
+      "families": [
+        "ridge",
+        "concat",
+        "fv"
+      ],
+      "equal": "supervised labels, tests, gene list, search budget; only declared response access differs"
+    },
+    {
+      "name": "hierarchical component",
+      "tasks": [
+        "hierarchical_donor_fold0",
+        "hierarchical_donor_fold1",
+        "hierarchical_donor_fold2",
+        "hierarchical_donor_fold3"
+      ],
+      "families": [
+        "hierarchical",
+        "fixed_gaussian",
+        "unshrunk_offsets",
+        "fv_continued"
+      ],
+      "equal": "own originally selected warm-start plus <=1000 corrective steps; frozen selections; no retuning",
+      "limitation": "warm-start histories and wall time reported; older 3000-step models are not equal-compute continuation controls"
+    },
+    {
+      "name": "simple baseline check",
+      "families": [
+        "zero",
+        "training_mean",
+        "same_target_mean_if_permitted",
+        "shrunk_additive",
+        "ridge"
+      ],
+      "equal": "identical evaluable rows and genes; additive must have required support; no global-unseen P2 fallback disguised as true same-target evidence"
+    }
+  ],
+  "new_selection_budget": {
+    "training": 0,
+    "new_hyperparameter_trials": 0,
+    "checkpoint_selection": "reuse existing validation-selected frozen checkpoints; no test-based switches",
+    "random_seeds": [
+      11,
+      29,
+      47
+    ],
+    "bootstrap_seed": 20261026,
+    "bootstrap_draws": 10000
+  },
+  "supplemental_metrics": [
+    {
+      "metric": "signed_Pearson_delta",
+      "rule": "within condition, across fixed genes; center both vectors; zero norm -> NA; report NA count; equal donor/context/target summary"
+    },
+    {
+      "metric": "truth_aligned_amplitude",
+      "rule": "dot(pred,true)/dot(true,true); denominator<=1e-12 -> NA; diagnostic, not mechanism evidence"
+    },
+    {
+      "metric": "direction_accuracy",
+      "rule": "evaluate abs(true)>0.1 in label-specific log2 units; report denominator and coverage; predicted zero counts as incorrect"
+    },
+    {
+      "metric": "DE_AP",
+      "rule": "pooled published adjp<0.05 and abs(log2FC)>0.5; score abs(pred); report AP prevalence and no-positive exclusions; no donor DE labels invented"
+    },
+    {
+      "metric": "perturbation_retrieval",
+      "rule": "within same donor/context and fixed test panel; cosine of raw delta vector; correct-target rank against all panel targets; average tied rank; normalized inverse rank=(N-rank)/(N-1); invalid zero vector -> NA; report N and exclusions"
+    },
+    {
+      "metric": "context_specific_error",
+      "rule": "seen-target transfer only: subtract same frozen training-only target shared reference from prediction/truth; unavailable references -> NA; equal donor/context/target summary; do not call this replicate-adjusted CGC recovery"
+    },
+    {
+      "metric": "function",
+      "rule": "reuse all fixed IL10/IL21 x three RNA contexts, 9 targets, extra-donor same-study panel; no selecting best context; no independent-study claim"
+    }
+  ],
+  "positive_controls": {
+    "role": "metric diagnostic only; target-condition outcomes never enter learned predictions or selection",
+    "construction": "donor-response space only: split targeting guides and NTC guides deterministically into disjoint halves within donor/culture/run using SHA256(prefix|guide); aggregate each half with equal-guide weights after original per-row count QC and log2(1+CPM); use replicate-disjoint controls where present",
+    "eligibility": "at least 2 distinct targeting guides and 2 distinct matched NTC guides with eligible rows; all relevant blocks nonempty; report exclusions and exact intersection",
+    "fallback": "if guide/NTC/replicate metadata do not support independence, mark biological positive control unavailable; never substitute y for its own prediction",
+    "comparison": "score zero, training mean, target mean when permitted and positive control on same eligible panel; no retuning gene weights on test",
+    "DRF": "only if denominator nonzero and metric directions oriented identically; diagnostic on available positive/negative controls, not clinical calibration",
+    "oracle": "an exact-truth oracle may be used for software bounds only, never as biological positive control or reported model"
+  },
+  "negative_controls": {
+    "zero": "predict delta=0",
+    "training_mean": "training-only per-gene mean",
+    "wrong_target": "20 fixed within-donor/context target derangements, seeded 20261026; reassignment of frozen predictions; no realignment to improve outcomes; aggregation over common supported test panel",
+    "wrong_context": "seen-target cross-context derangement only when all candidate contexts have matched support; report blocked cases",
+    "role": "diagnose perturbation/context correspondence; not substitutes for strongest predictive baseline"
+  },
+  "statistics": {
+    "units": "donor is independent biological unit for donor tasks; targets/genes/seeds are not substitute donors; pooled task has no donor generalization CI",
+    "seed_summary": "first average each metric across three trained seeds, then compare four held donors; keep seed SD separately",
+    "four_donor": "show all four paired differences and mean; 10000-draw donor bootstrap and 16 sign patterns descriptive only because n=4, sign symmetry and overlapping CV fits",
+    "multiplicity": "fixed family: hierarchy vs continued FV, fixed Gaussian, unshrunk offsets, on MAE and Pearson (6 exploratory contrasts); Holm across all six, retain raw p; no confirmatory significance claim",
+    "replicates": "guide/run/plate splits constrain truth reliability; report repeated measurements nested in donors",
+    "confidence_not_posterior": "Gaussian regularization is MAP-like, not full posterior; empirical calibration has no OOD exchangeability guarantee"
+  },
+  "independent_confirmation_gate": {
+    "current_status": "unmet for harmonized independent primary-T CRISPRi",
+    "requirements": "new study, resolved donor/time/intervention/control, full response genes or raw counts, deduplicated subjects/assays, no use for model or metric selection",
+    "exclusions": "same-study flow is independent assay/donors, not independent study; cancer line transfer is OOD check, not independent primary-T confirmation; KO and CRISPRi cannot silently be treated as identical",
+    "timebox": "metadata feasibility decision by 2026-10-28 18:00+08:00; otherwise scope limitation and no new mass download"
+  },
+  "completion_boundary": "This freezes protocol and verifies existing manifests only. No new positive-control biological result, new modern-baseline run, or independent-study replication is declared complete.",
+  "do_not_modify": "old source folders, frozen split files, old outcomes/checkpoints, Digital_Organ_Twin, retained documents, old submission baseline"
+}

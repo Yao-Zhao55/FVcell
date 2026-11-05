@@ -1,0 +1,28 @@
+{
+  "version": "FVcell-supplement-after-literature-v1",
+  "frozen_at": "2026-10-26T21:49:45.819403+08:00",
+  "protocol_sha256": "2de44d1504847b384535dcc807c93d64d9fb2ddd8742a045cb0ae496df5dd3c6",
+  "source_sha256": {
+    "prepared/FREEZE_LOCK.json": "fc0bac5be3a2446d404479e65d500fb8e165a0107131e1038df9719feddd159a",
+    "full_experiments/experiment_plan_frozen.json": "68314cceb214b3a64c90a211825605475eef07403bba72278d14516f5d9195a6",
+    "full_experiments/E2_strict_protocol_amendment.json": "3df6319b8a8db8c03c311dab4ec4c24b4bdf52e42191632c010fd2ce332881a1",
+    "full_experiments/E1_external_study_holdout_protocol.json": "9a5f7494bd7f4fa1c98ffc9f22ebe5728e71885c5012badc9caa9266aa29d4c5",
+    "training_completion/protocol.json": "00012b26292fb06318e78d4ac8470a5059ad04e949fd073083161f6a46110055",
+    "training_completion/identifiability_correction_protocol.json": "e5b2262c8c583d793759dfdd98ba08246f28fba9aa26eb7e0e58c6a014ee1087",
+    "full_experiments/analysis/all_model_summary.csv": "3fad89b89fa5b59c6088f841859e33c1acefe92ee3aeca0cd146411e88733fee",
+    "training_completion/analysis/all_results.csv": "9720b6ddda7e59c08d132c1674fc67578bb3f9748cb4b8bd94ea0de6e81a9767",
+    "training_completion/analysis/auxiliary_metrics.csv": "7cabd41bd3e15628768e9c9c0388dd88ccc135979b91adee7784ec3fde1e77ad",
+    "training_completion/analysis/joint_functional_results.csv": "9a45b1dd514e5662fad5e75e4e4907b4d2d9b994651b14ab18e9a8774f274eeb",
+    "training_completion/analysis/hierarchical_donor_contrasts.json": "1dc7ac446d5e71ff0ecfe55eb579375a51e52b2fa530b0cbf5582827cece2526",
+    "full_experiments/analysis/model_checkpoint_manifest.csv": "631c71087ef8f51815c0b3a2379a9942763ef4548b6f61c23f8f68dc38808657",
+    "training_completion/analysis/model_manifest.csv": "d705cc3041d251aaff13ca092df7909157f81b8cbd3402febb2b9662adef9a39",
+    "scripts/full_suite_core.py": "be2cd542d7364b06a4ce5eaa1626c88f1e27a545b2be16eb6089e49a47eabbd4",
+    "scripts/completion_core.py": "c9ce0f22ffa61280b660510bbbe0440b0728efbf9e4815c4ed047f4b04952482",
+    "full_experiments/prepared/primary_genes.csv": "3a745e4d6550d2aa990d45172845f7027317e8bb8d44e5e1518f1a088cd6cead",
+    "full_experiments/prepared/donor_genes.csv": "58342509a8f64f4095467f80d88cdc3d36e24765a6af13245e629b8a81794648",
+    "literature_20261026/sources/B03_0.txt": "252165bc8b2f602e8a3b2277e93990e3656d5785fc2c2dbc1748f82050e49855",
+    "literature_20261026/sources/B02_0.txt": "eb6508f6973c38fe6773d716f103cd56746cead13d44b780fde2d7312db0d7c5",
+    "literature_20261026/sources/M03_0.txt": "e405db3824a8c5f5a434fd5aa6f5290e09e3863967ecbc414196f000dee83caf"
+  },
+  "old_split_lock_unchanged": true
+}
