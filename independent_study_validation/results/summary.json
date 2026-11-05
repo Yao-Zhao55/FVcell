@@ -1,0 +1,245 @@
+{
+  "concat_original_P1": {
+    "Teff": {
+      "mae": 0.1447640116814831,
+      "pearson": 0.020799426717597966,
+      "direction": 0.5076010752980865,
+      "amplitude": 0.015852148198978677,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.535714285714286
+    },
+    "Treg": {
+      "mae": 0.15355727755131418,
+      "pearson": 0.010410399774661086,
+      "direction": 0.5042661157467628,
+      "amplitude": 0.005790922871337819,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.505952380952381
+    },
+    "all": {
+      "mae": 0.14916064461639864,
+      "pearson": 0.015604913246129526,
+      "direction": 0.5059335955224247,
+      "amplitude": 0.01082153553515825,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.520833333333334
+    },
+    "number_of_seeds": 3
+  },
+  "fixed_gaussian": {
+    "Teff": {
+      "mae": 0.1306302492864886,
+      "pearson": 0.025219359886340387,
+      "direction": 0.4914510638925524,
+      "amplitude": 0.012302006797583531,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.363095238095239
+    },
+    "Treg": {
+      "mae": 0.14057423449942388,
+      "pearson": 0.011711737760783525,
+      "direction": 0.48045269180540423,
+      "amplitude": 0.002236516325978268,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.285714285714286
+    },
+    "all": {
+      "mae": 0.13560224189295622,
+      "pearson": 0.018465548823561957,
+      "direction": 0.48595187784897836,
+      "amplitude": 0.0072692615617808995,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.324404761904761
+    },
+    "number_of_seeds": 3
+  },
+  "fv_continued": {
+    "Teff": {
+      "mae": 0.13061987197249378,
+      "pearson": 0.0251425577409758,
+      "direction": 0.49148153124208793,
+      "amplitude": 0.012266540556491545,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.36904761904762
+    },
+    "Treg": {
+      "mae": 0.1405748712650109,
+      "pearson": 0.011703589980501522,
+      "direction": 0.4803900646423192,
+      "amplitude": 0.0022526914231031075,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.285714285714286
+    },
+    "all": {
+      "mae": 0.13559737161875232,
+      "pearson": 0.018423073860738663,
+      "direction": 0.4859357979422036,
+      "amplitude": 0.007259615989797327,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.327380952380954
+    },
+    "number_of_seeds": 3
+  },
+  "hierarchical": {
+    "Teff": {
+      "mae": 0.13063088935807116,
+      "pearson": 0.025217994784622024,
+      "direction": 0.4914495519672653,
+      "amplitude": 0.01230163412136334,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.363095238095239
+    },
+    "Treg": {
+      "mae": 0.14057557619476113,
+      "pearson": 0.011708529096645425,
+      "direction": 0.4804493463230615,
+      "amplitude": 0.002234371891994993,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.285714285714286
+    },
+    "all": {
+      "mae": 0.13560323277641614,
+      "pearson": 0.018463261940633722,
+      "direction": 0.4859494491451634,
+      "amplitude": 0.007268003006679166,
+      "retrieval_top1": 0.041666666666666664,
+      "retrieval_rank": 14.324404761904761
+    },
+    "number_of_seeds": 3
+  },
+  "source_ridge_P1": {
+    "Teff": {
+      "mae": 0.13630952779032857,
+      "pearson": 0.02307596521527401,
+      "direction": 0.4822320296264652,
+      "amplitude": 0.013262472169198626,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.357142857142858
+    },
+    "Treg": {
+      "mae": 0.14445329919457844,
+      "pearson": -0.0004330869943541388,
+      "direction": 0.46879284730971366,
+      "amplitude": -0.005717611875774199,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.160714285714286
+    },
+    "all": {
+      "mae": 0.1403814134924535,
+      "pearson": 0.011321439110459935,
+      "direction": 0.47551243846808944,
+      "amplitude": 0.0037724301467122134,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.258928571428571
+    },
+    "number_of_seeds": 1
+  },
+  "source_same_target_mean": {
+    "Teff": {
+      "mae": 0.1858882523985435,
+      "pearson": 0.13345956345953847,
+      "direction": 0.5402295668857193,
+      "amplitude": 0.1737857966030707,
+      "retrieval_top1": 0.4285714285714286,
+      "retrieval_rank": 6.214285714285714
+    },
+    "Treg": {
+      "mae": 0.1944470068433884,
+      "pearson": 0.11754214262559845,
+      "direction": 0.5354200441736925,
+      "amplitude": 0.1434660083142394,
+      "retrieval_top1": 0.4642857142857143,
+      "retrieval_rank": 6.142857142857142
+    },
+    "all": {
+      "mae": 0.19016762962096595,
+      "pearson": 0.12550085304256847,
+      "direction": 0.5378248055297059,
+      "amplitude": 0.15862590245865504,
+      "retrieval_top1": 0.4464285714285715,
+      "retrieval_rank": 6.178571428571429
+    },
+    "number_of_seeds": 1
+  },
+  "source_shrunk_additive": {
+    "Teff": {
+      "mae": 0.12633719529031262,
+      "pearson": 0.025806901904512864,
+      "direction": 0.4781093072733388,
+      "amplitude": 0.00946773986370803,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "Treg": {
+      "mae": 0.13635326774651632,
+      "pearson": 0.011401111638393573,
+      "direction": 0.4649755350076498,
+      "amplitude": 0.00021825444282212378,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "all": {
+      "mae": 0.13134523151841446,
+      "pearson": 0.018604006771453217,
+      "direction": 0.4715424211404943,
+      "amplitude": 0.004842997153265077,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "number_of_seeds": 1
+  },
+  "source_training_mean": {
+    "Teff": {
+      "mae": 0.12623794446013312,
+      "pearson": 0.02538572198625255,
+      "direction": 0.47625817984286933,
+      "amplitude": 0.009285610856279488,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "Treg": {
+      "mae": 0.1364167057577797,
+      "pearson": 0.006103749791774211,
+      "direction": 0.4637520574716353,
+      "amplitude": -0.0028179201588629608,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "all": {
+      "mae": 0.1313273251089564,
+      "pearson": 0.01574473588901338,
+      "direction": 0.47000511865725236,
+      "amplitude": 0.003233845348708264,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "number_of_seeds": 1
+  },
+  "zero": {
+    "Teff": {
+      "mae": 0.11305125168693263,
+      "pearson": null,
+      "direction": 0.0,
+      "amplitude": 0.0,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "Treg": {
+      "mae": 0.12238417829613812,
+      "pearson": null,
+      "direction": 0.0,
+      "amplitude": 0.0,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "all": {
+      "mae": 0.11771771499153538,
+      "pearson": null,
+      "direction": 0.0,
+      "amplitude": 0.0,
+      "retrieval_top1": 0.03571428571428571,
+      "retrieval_rank": 14.5
+    },
+    "number_of_seeds": 1
+  }
+}

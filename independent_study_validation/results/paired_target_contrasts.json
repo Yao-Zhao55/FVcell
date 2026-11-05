@@ -1,0 +1,56 @@
+{
+  "zero": {
+    "hierarchical_minus_comparator_MAE": 0.017579637671138522,
+    "target_bootstrap_descriptive_95_interval": [
+      0.016693422278958744,
+      0.018564070161267668
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  },
+  "source_same_target_mean": {
+    "hierarchical_minus_comparator_MAE": -0.055257363040472365,
+    "target_bootstrap_descriptive_95_interval": [
+      -0.08420620324020023,
+      -0.03032578365070503
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  },
+  "source_shrunk_additive": {
+    "hierarchical_minus_comparator_MAE": 0.004293694067758512,
+    "target_bootstrap_descriptive_95_interval": [
+      0.0036424086797541915,
+      0.004911539511930645
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  },
+  "fv_continued": {
+    "hierarchical_minus_comparator_MAE": 1.1017385577383088e-05,
+    "target_bootstrap_descriptive_95_interval": [
+      5.2442477488150715e-06,
+      1.7760697316983862e-05
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  },
+  "concat_original_P1": {
+    "hierarchical_minus_comparator_MAE": -0.014133122323411929,
+    "target_bootstrap_descriptive_95_interval": [
+      -0.014923615214401173,
+      -0.01337472195649852
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  },
+  "fixed_gaussian": {
+    "hierarchical_minus_comparator_MAE": 6.400715825748535e-07,
+    "target_bootstrap_descriptive_95_interval": [
+      3.205291741419265e-07,
+      9.94234522425532e-07
+    ],
+    "targets": 28,
+    "not_donor_population_inference": true
+  }
+}

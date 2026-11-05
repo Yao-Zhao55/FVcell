@@ -1,0 +1,26 @@
+[
+  {
+    "model": "hierarchical",
+    "checked_real_rows": 12,
+    "max_MAE_difference_from_existing_score": 1.5821624566036974e-10,
+    "pass": true
+  },
+  {
+    "model": "fixed_gaussian",
+    "checked_real_rows": 12,
+    "max_MAE_difference_from_existing_score": 2.516895025728161e-10,
+    "pass": true
+  },
+  {
+    "model": "fv_continued",
+    "checked_real_rows": 12,
+    "max_MAE_difference_from_existing_score": 1.139299654617787e-09,
+    "pass": true
+  },
+  {
+    "model": "concat_original_P1",
+    "checked_real_rows": 12,
+    "max_MAE_difference_from_existing_score": 1.037853469831873e-09,
+    "pass": true
+  }
+]
