@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the FVcell manuscript and original datasets when using this research package."
+title: "FVcell: Evidence Access and Transfer Limits in T-Cell Perturbation Prediction"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Yao
+  - family-names: Lu
+    given-names: Xiaoxuan
+  - family-names: Yang
+    given-names: Yang
+  - family-names: Zhu
+    given-names: Di
+version: 0.1.0
