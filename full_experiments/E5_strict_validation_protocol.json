@@ -1,0 +1,14 @@
+{
+  "freeze_date": "2026-10-26",
+  "reason": "Match model-selection difficulty to the globally unseen functional-target test. Fixed before any functional-concordance result was computed or inspected.",
+  "functional_target_set": "Unchanged functional_scope_lock.json, mapped from the prelocked IL10/IL21 validation panel",
+  "training": "Original globally-unseen-target train partition, excluding all functional targets in every RNA context",
+  "validation": "Original globally-unseen-target validation partition, excluding all functional targets; selection/calibration target hash unchanged",
+  "test": "All RNA contexts of the functional target panel only; other global-test targets excluded",
+  "permission": "P1 strict: gene function and allowed NTC baseline only, no response input or teacher for held functional targets",
+  "models": ["ridge", "concat", "fv"],
+  "seeds": [11, 29, 47],
+  "budget": "experiment_plan_frozen.json",
+  "earlier_E5_run_retained": "Earlier combo-validation version remains exploratory. Primary cross-assay analysis uses this validation-matched strict version.",
+  "functional_labels_never_used_for_training_selection_or_context_choice": true
+}

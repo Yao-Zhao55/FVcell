@@ -1,0 +1,761 @@
+{
+  "removed": [
+    {
+      "path": "E1_global_target_P1\\concat\\11\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.3977182
+    },
+    {
+      "path": "E1_global_target_P1\\concat\\11\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.4097147
+    },
+    {
+      "path": "E1_global_target_P1\\concat\\29\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.4307165
+    },
+    {
+      "path": "E1_global_target_P1\\concat\\29\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.4597125
+    },
+    {
+      "path": "E1_global_target_P1\\concat\\47\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.4825141
+    },
+    {
+      "path": "E1_global_target_P1\\concat\\47\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5035124
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5045125
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5045125
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5045125
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5055118
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5055118
+    },
+    {
+      "path": "E1_P2_combo\\fixed_state\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5055118
+    },
+    {
+      "path": "E1_P2_combo\\independent\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5055118
+    },
+    {
+      "path": "E1_P2_combo\\independent\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5065145
+    },
+    {
+      "path": "E1_P2_combo\\independent\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5065145
+    },
+    {
+      "path": "E1_P2_combo\\independent\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5065145
+    },
+    {
+      "path": "E1_P2_combo\\independent\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5065145
+    },
+    {
+      "path": "E1_P2_combo\\independent\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5075147
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5075147
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5075147
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5075147
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5085146
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5085146
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5085146
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5085146
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5085146
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5095172
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5095172
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5095172
+    },
+    {
+      "path": "E1_P2_combo\\no_mechanism_regularizer\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5095172
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5105157
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5105157
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5105157
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5105157
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5115159
+    },
+    {
+      "path": "E1_P2_combo\\no_shrink\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5115159
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5115159
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5115159
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5115159
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5125165
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5125165
+    },
+    {
+      "path": "E1_P2_combo\\onehot_state\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5125165
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5125165
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5135155
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5135155
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5135155
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5135155
+    },
+    {
+      "path": "E1_P2_combo\\randomized_mechanism\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5145159
+    },
+    {
+      "path": "E1_P2_combo\\shared\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5145159
+    },
+    {
+      "path": "E1_P2_combo\\shared\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5145159
+    },
+    {
+      "path": "E1_P2_combo\\shared\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5155156
+    },
+    {
+      "path": "E1_P2_combo\\shared\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5155156
+    },
+    {
+      "path": "E1_P2_combo\\shared\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5155156
+    },
+    {
+      "path": "E1_P2_combo\\shared\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5155156
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5155156
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5165148
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5165148
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5175152
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5175152
+    },
+    {
+      "path": "E1_P2_combo\\state_official\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5185137
+    },
+    {
+      "path": "E2_P0_combo\\concat\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5185137
+    },
+    {
+      "path": "E2_P0_combo\\concat\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5195148
+    },
+    {
+      "path": "E2_P0_combo\\concat\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5195148
+    },
+    {
+      "path": "E2_P0_combo\\concat\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5195148
+    },
+    {
+      "path": "E2_P0_combo\\concat\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5205154
+    },
+    {
+      "path": "E2_P0_combo\\concat\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5205154
+    },
+    {
+      "path": "E2_P0_combo\\fv\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5205154
+    },
+    {
+      "path": "E2_P0_combo\\fv\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5205154
+    },
+    {
+      "path": "E2_P0_combo\\fv\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.521515
+    },
+    {
+      "path": "E2_P0_combo\\fv\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.521515
+    },
+    {
+      "path": "E2_P0_combo\\fv\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.521515
+    },
+    {
+      "path": "E2_P0_combo\\fv\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.521515
+    },
+    {
+      "path": "E2_P1_combo\\concat\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.522516
+    },
+    {
+      "path": "E2_P1_combo\\concat\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.522516
+    },
+    {
+      "path": "E2_P1_combo\\concat\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.522516
+    },
+    {
+      "path": "E2_P1_combo\\concat\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5235145
+    },
+    {
+      "path": "E2_P1_combo\\concat\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5235145
+    },
+    {
+      "path": "E2_P1_combo\\concat\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5235145
+    },
+    {
+      "path": "E2_P1_combo\\fv\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5235145
+    },
+    {
+      "path": "E2_P1_combo\\fv\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5245132
+    },
+    {
+      "path": "E2_P1_combo\\fv\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5245132
+    },
+    {
+      "path": "E2_P1_combo\\fv\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5245132
+    },
+    {
+      "path": "E2_P1_combo\\fv\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5245132
+    },
+    {
+      "path": "E2_P1_combo\\fv\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5255122
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5255122
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5255122
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5255122
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5265129
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5265129
+    },
+    {
+      "path": "E2_P1_combo\\state_official\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792990395.5265129
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\11\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3873742
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\11\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3873742
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\29\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3873742
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\29\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3883739
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\47\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3883739
+    },
+    {
+      "path": "E1_external_study_P1\\concat\\47\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.389374
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\11\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.389374
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\11\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.389374
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\29\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.390374
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\29\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.390374
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\47\\test_predictions.npy",
+      "bytes": 28212968,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3913739
+    },
+    {
+      "path": "E1_external_study_P1\\fv\\47\\validation_predictions.npy",
+      "bytes": 42319388,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3913739
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\11\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3943734
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\11\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3953738
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\29\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3953738
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\29\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3963745
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\47\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3963745
+    },
+    {
+      "path": "E1_global_target_P1\\fv\\47\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.397374
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\11\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.398378
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\11\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.398378
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\29\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3993785
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\29\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.3993785
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\47\\test_predictions.npy",
+      "bytes": 275763368,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4003785
+    },
+    {
+      "path": "E1_global_target_P1\\state_official\\47\\validation_predictions.npy",
+      "bytes": 287114696,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4003785
+    },
+    {
+      "path": "E3_internal_50\\fv\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.422658
+    },
+    {
+      "path": "E3_internal_50\\fv\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.422658
+    },
+    {
+      "path": "E3_internal_50\\fv\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4236634
+    },
+    {
+      "path": "E3_internal_50\\fv\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4236634
+    },
+    {
+      "path": "E3_internal_50\\fv\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4236634
+    },
+    {
+      "path": "E3_internal_50\\fv\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.424663
+    },
+    {
+      "path": "E3_internal_75\\fv\\11\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.424663
+    },
+    {
+      "path": "E3_internal_75\\fv\\11\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.424663
+    },
+    {
+      "path": "E3_internal_75\\fv\\29\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.424663
+    },
+    {
+      "path": "E3_internal_75\\fv\\29\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4256628
+    },
+    {
+      "path": "E3_internal_75\\fv\\47\\test_predictions.npy",
+      "bytes": 92332488,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4256628
+    },
+    {
+      "path": "E3_internal_75\\fv\\47\\validation_predictions.npy",
+      "bytes": 87890664,
+      "reason": "reproducible prediction cache; checkpoint and per-target metrics retained",
+      "epoch": 1792995249.4256628
+    }
+  ],
+  "total_freed_bytes": 14139808008
+}

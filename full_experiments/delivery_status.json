@@ -1,0 +1,23 @@
+{
+  "state": "registered_computational_experiments_and_report_complete",
+  "task_settings": 19,
+  "method_task_settings": 80,
+  "neural_checkpoints": 168,
+  "deterministic_baselines": 24,
+  "pipeline_tests_passed": 20,
+  "protected_original_files_unchanged": 98,
+  "pdf_pages": 12,
+  "pdf_sha256": "650b097dfceecaadd49ed2a6667383cb78c8f3b34af7eba33ec63f20fab4c772",
+  "no_active_training_locks": true,
+  "full_outline_biological_claims_not_all_established": true,
+  "remaining_evidence_gaps": [
+    "No fully cell-count/donor/platform matched broad pretraining comparison; E3 source comparison remains confounded",
+    "No independent primary-T CRISPRi study with harmonized complete response gold constructed; Replogle tests are non-primary-T OOD",
+    "No real organ composition/transport or longitudinal intervention validation; synthetic identity check is not biological evidence",
+    "Published upstream curated targets and pooled primary DE feature selection remain limitations",
+    "Mechanism regularizer and latent L2 residual shrinkage are tested; no full hierarchical Bayesian model or pretrained SE encoder claim",
+    "P0 removes target baseline-expression inputs but is not whole-context source exclusion",
+    "No arbitrary gene-level missing-label training mask; observed condition rows only"
+  ],
+  "completed_at": "2026-10-26T14:23:13.081560+08:00"
+}

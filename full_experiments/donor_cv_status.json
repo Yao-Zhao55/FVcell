@@ -1,0 +1,12 @@
+{
+  "state": "complete",
+  "completed_folds": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "outer_test_donors": 4,
+  "protocol_sha256": "87119d3db449a3444ec680dae33da60c5514b0d551b6df66d9b87f4493241635",
+  "updated_epoch": 1792995380.2484694
+}

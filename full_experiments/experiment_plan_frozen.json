@@ -1,0 +1,92 @@
+{
+  "version": "FVcell-outline-v2-expanded-20261026-v1",
+  "seeds": [
+    11,
+    29,
+    47
+  ],
+  "learning_rates": [
+    0.001,
+    0.0003
+  ],
+  "max_steps": 3000,
+  "batch_size": 128,
+  "validation_interval": 250,
+  "patience": 4,
+  "loss": "SmoothL1_beta_0.1",
+  "residual_penalty": 0.001,
+  "mechanism_penalty": 0.001,
+  "main_metric": "signed response MAE; equal donor then context then target",
+  "primary_comparison": "factorized FV vs capacity-matched concatenation at P2",
+  "calibration": "half of original validation targets by pre-fixed SHA256; never early stopping or hyperparameter selection",
+  "prior_test_exposure": "first additive-run combination test summary was seen before this suite; expanded combination results are exploratory, not a newly untouched confirmation",
+  "separate_unseen_donor_unit": "delta_log2_CPM_plus_1 from raw-QC donor/guide counts, all reference genes, separate from pooled DESeq2 labels",
+  "tasks": {
+    "E1_P2_combo": [
+      "fv",
+      "concat",
+      "shared",
+      "independent",
+      "state_official",
+      "ridge",
+      "zero",
+      "training_mean",
+      "same_target_mean"
+    ],
+    "E2_P1_combo": [
+      "fv",
+      "concat",
+      "state_official",
+      "ridge"
+    ],
+    "E2_P0_combo": [
+      "fv",
+      "concat",
+      "ridge"
+    ],
+    "E1_global_target_P1": [
+      "fv",
+      "concat",
+      "state_official",
+      "ridge"
+    ],
+    "E1_donor_P1": [
+      "fv",
+      "concat",
+      "shared",
+      "ridge"
+    ],
+    "E2_donor_P2": [
+      "fv",
+      "concat",
+      "ridge"
+    ],
+    "E4_ablations": [
+      "no_mechanism",
+      "randomized_mechanism",
+      "no_mechanism_regularizer",
+      "no_shrink",
+      "fixed_state",
+      "onehot_state"
+    ],
+    "E3_internal_scale": [
+      "50_percent_aux_training",
+      "75_percent_aux_training"
+    ],
+    "E5_functional_targets_P1": [
+      "fv",
+      "concat",
+      "ridge"
+    ]
+  },
+  "E3_wide_data_scope": "K562/RPE1 non-primary-T backgrounds if published raw-count semantics validate; not a claim of a fully matched broad pretraining corpus",
+  "E5_readouts": [
+    "IL10_perc",
+    "IL21_perc"
+  ],
+  "E5_all_three_RNA_contexts_reported_no_best_context_selection": true,
+  "E5_functional_target_RNA_effects_removed_from_all_training_and_selection": "all contexts, no same-target teacher",
+  "no_pretrained_weights_or_old_NPZ": true,
+  "download_budget_bytes": 100000000000,
+  "no_organ_or_dynamics_claim_without_matched_data": true
+}

@@ -1,0 +1,37 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "3.0.1",
+    "torch": "2.7.1+cu128",
+    "h5py": "3.16.0",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.7.2",
+    "transformers": "4.52.4",
+    "lightning": "2.5.2"
+  },
+  "cuda": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "source_code_sha256": {
+    "full_suite_additive_baseline.py": "be5859c145c998d6ddd071e1523e5cc9391f046acba123c429f27c366ad56b26",
+    "full_suite_analyse.py": "05af3f07bebc82a02daba56eaa278e85b5a73f2e7f3c2bf46bcdf5ca5097d5f8",
+    "full_suite_core.py": "be2cd542d7364b06a4ce5eaa1626c88f1e27a545b2be16eb6089e49a47eabbd4",
+    "full_suite_donor0_state_run.py": "9c84cda575721205cfa98bd1a8974c397f5996fee0c00f4e0e292aa129b49e9a",
+    "full_suite_donor_cv_run.py": "5185eb08bc2a7a603d7483094aceb063a9ef553a2bf07fe04910b16f0466f175",
+    "full_suite_external_prepare.py": "43b13250092f8dd506d5eb7a2883847a0812d83bc4ec844b73a12732261a61b4",
+    "full_suite_external_run.py": "d890621654bb8e6af0d9055b1f7e292a40d47ef0e2116179956470f8e5150f28",
+    "full_suite_fetch_external.py": "1e7a008653b93a072b19f8fac5052a7b76fb4ad6c0967ce5972326f0da98cd2f",
+    "full_suite_final_audit.py": "81eca8d1a6c5eef4aff1bb83ed1bf45eaddeeeffeacc1fe70e1f5851f7a3f77c",
+    "full_suite_functional_strict_run.py": "acb925f9d99ef43679737e5f5a031afc1ed66f05de3531e516c0c40a523f764b",
+    "full_suite_pdf_qa.py": "f575675e559aff9d9c9668c4828f7728e600b05e49af3e1581056f3f0de681aa",
+    "full_suite_prepare.py": "49d7c51ea2675252d3f19aa890572badbb166b22caa4da1f2502e7608675fe10",
+    "full_suite_report.py": "6f9b8b4f34a54b1da07dc249e8e4ac9958c8b754b37439ee5ba92cce832b602e",
+    "full_suite_run.py": "c61a38cfbea92a9dc994d0fcd6617b26f5067537693ce2ed84d7df71ca1cfe2d",
+    "full_suite_state_adapter.py": "d955cf326f514df3c64d02e749eb7a102343b695e3a303dec3a07bd1bbdbd503",
+    "full_suite_strict_permissions_run.py": "f534aeeaaa07fc2d3f3a6ffae5240392729d520320ad6360af51cb3a7ea0df84"
+  },
+  "training_precision": "FP32, no autocast",
+  "stochastic_repeats": 3,
+  "timing_warning": "Selected-fit seconds exclude discarded hyperparameter trials and some cache setup. Family directory wall time includes tuning/evaluation/recovery and concurrent workloads, not exclusive GPU hours. Older fits record process-cumulative peak memory; later fits explicitly reset per-fit peak.",
+  "original_inputs_modified": false
+}

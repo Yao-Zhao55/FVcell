@@ -1,0 +1,7 @@
+{
+  "state": "complete",
+  "common_supervised_train_rows": 20112,
+  "P2_additional_other_context_evidence_rows": 8764,
+  "strict_protocol_sha256": "3df6319b8a8db8c03c311dab4ec4c24b4bdf52e42191632c010fd2ce332881a1",
+  "updated_epoch": 1792990622.7420077
+}

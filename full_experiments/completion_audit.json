@@ -1,0 +1,193 @@
+{
+  "state": "all_registered_computational_runs_complete",
+  "task_settings": 19,
+  "method_task_settings": 80,
+  "neural_checkpoints": 168,
+  "deterministic_baseline_settings": 24,
+  "seed_count": 3,
+  "fixed_primary_source_rows_independently_verified": 32,
+  "protected_original_files_unchanged": 98,
+  "original_protocol_hashes_unchanged": true,
+  "checks": [
+    {
+      "task": "E1_P2_combo",
+      "train_rows": 28876,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "2766a9e5efdd6bfd83f2edc9cc2a028f664d1d32e36f5419267ab0961d01b4db"
+    },
+    {
+      "task": "E2_P1_combo",
+      "train_rows": 28876,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "2766a9e5efdd6bfd83f2edc9cc2a028f664d1d32e36f5419267ab0961d01b4db"
+    },
+    {
+      "task": "E2_P0_combo",
+      "train_rows": 28876,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "2766a9e5efdd6bfd83f2edc9cc2a028f664d1d32e36f5419267ab0961d01b4db"
+    },
+    {
+      "task": "E1_global_target_P1",
+      "train_rows": 19572,
+      "selection_rows": 3477,
+      "calibration_rows": 3504,
+      "test_rows": 6705,
+      "test_targets": 2235,
+      "manifest_sha256": "e22ba0104fd01d3d0da6c3ddc576d371e0f641f0d78f2bc6a18b66151877cb8a"
+    },
+    {
+      "task": "E3_internal_50",
+      "train_rows": 14438,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "f599f374df3a68bd49c6d18ee99d4aeab1ad7f6c5fea2dbda6a6b7522db8e9b6"
+    },
+    {
+      "task": "E3_internal_75",
+      "train_rows": 21657,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "d8aac930bf93ea930b9e5218b652930c0a3874d3e101d62c4fbcf6cc98485710"
+    },
+    {
+      "task": "E5_functional_targets_P1",
+      "train_rows": 28853,
+      "selection_rows": 1054,
+      "calibration_rows": 1081,
+      "test_rows": 27,
+      "test_targets": 9,
+      "manifest_sha256": "d31eb4f3b7b0a4dd3249793e112551c9a7e9c612fb863370f7fd82fe93c70f9b"
+    },
+    {
+      "task": "E1_donor_P1",
+      "train_rows": 65983,
+      "selection_rows": 16217,
+      "calibration_rows": 16086,
+      "test_rows": 31385,
+      "test_targets": 10698,
+      "manifest_sha256": "782b6c7de93552831158ae07d582e7f98dbcb20e270c322b177138cd53c81905"
+    },
+    {
+      "task": "E1_donor_P2",
+      "train_rows": 65983,
+      "selection_rows": 16217,
+      "calibration_rows": 16086,
+      "test_rows": 31385,
+      "test_targets": 10698,
+      "manifest_sha256": "782b6c7de93552831158ae07d582e7f98dbcb20e270c322b177138cd53c81905"
+    },
+    {
+      "task": "E3_external_targeted",
+      "train_rows": 3114,
+      "selection_rows": 828,
+      "calibration_rows": 729,
+      "test_rows": 1557,
+      "test_targets": 519,
+      "manifest_sha256": "7c20f1f0ef0622c7da753f56dc005746109a1120c0fcf26bebde201c7e7539bc"
+    },
+    {
+      "task": "E3_external_non_primary_T",
+      "train_rows": 3114,
+      "selection_rows": 828,
+      "calibration_rows": 729,
+      "test_rows": 1557,
+      "test_targets": 519,
+      "manifest_sha256": "bc62e334e36c565e8add7a992eeb7190494ba172d11e962cc19c5323533dafc1"
+    },
+    {
+      "task": "E1_external_study_P1",
+      "train_rows": 3114,
+      "selection_rows": 828,
+      "calibration_rows": 729,
+      "test_rows": 1038,
+      "test_targets": 519,
+      "manifest_sha256": "af3673aff7ceea883fe4fa2598ed01fc760399a858f7c4eb6053d8cd01cc1174"
+    },
+    {
+      "task": "E1_donor_P1_fold1",
+      "train_rows": 64581,
+      "selection_rows": 16428,
+      "calibration_rows": 16359,
+      "test_rows": 32303,
+      "test_targets": 10930,
+      "manifest_sha256": "597d487df02c8ce8228ca7b36b1caa16844203345c52dc04242287a8d621dd2b"
+    },
+    {
+      "task": "E1_donor_P1_fold2",
+      "train_rows": 63688,
+      "selection_rows": 16636,
+      "calibration_rows": 16560,
+      "test_rows": 32787,
+      "test_targets": 11022,
+      "manifest_sha256": "7ab78f00a18d0d4ad36c0d9635b219671a8d9c5aa12eedb650a9207e8f240729"
+    },
+    {
+      "task": "E1_donor_P1_fold3",
+      "train_rows": 65090,
+      "selection_rows": 15754,
+      "calibration_rows": 15631,
+      "test_rows": 33196,
+      "test_targets": 11083,
+      "manifest_sha256": "b45e8843b6a5c2f35fd532243487b041e0bf3a7af12b44365924d837a9910bf0"
+    },
+    {
+      "task": "E2_strict_P0",
+      "train_rows": 20112,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "task": "E2_strict_P1",
+      "train_rows": 20112,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "task": "E2_strict_P2",
+      "train_rows": 20112,
+      "selection_rows": 1054,
+      "calibration_rows": 1083,
+      "test_rows": 2245,
+      "test_targets": 2245,
+      "manifest_sha256": "cd4326032eac87dee4fa82bf71e7216d8667cbb8a4a7808a9b76f4421b9e4f89"
+    },
+    {
+      "task": "E5_functional_targets_strict_P1",
+      "train_rows": 19557,
+      "selection_rows": 3471,
+      "calibration_rows": 3501,
+      "test_rows": 27,
+      "test_targets": 9,
+      "manifest_sha256": "33ed0b053c6a642ddd790fd38e3c3f63c445ff8390545a648cfaa5f12410c023"
+    }
+  ],
+  "independent_biological_donors_in_main_cohort": 4,
+  "scope_gaps": [
+    "No fully cell-count/donor/platform matched broad pretraining comparison; E3 source comparison remains confounded",
+    "No independent primary-T CRISPRi study with harmonized complete response gold constructed; Replogle tests are non-primary-T OOD",
+    "No real organ composition/transport or longitudinal intervention validation; synthetic identity check is not biological evidence",
+    "Published upstream curated targets and pooled primary DE feature selection remain limitations",
+    "Mechanism regularizer and latent L2 residual shrinkage are tested; no full hierarchical Bayesian model or pretrained SE encoder claim"
+  ],
+  "completion_time": "2026-10-26T14:20:38.665856+08:00"
+}

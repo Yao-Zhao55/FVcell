@@ -1,0 +1,16 @@
+{
+  "freeze_date": "2026-10-26",
+  "reason": "The initial P1/P2 suite compares direct numeric input access on shared training labels. Strict information access additionally requires deleting all held-target responses from the P1 training objective. This clarification was fixed before any strict-permission experiment or test inspection.",
+  "original_runs_preserved": true,
+  "common_supervised_training": "Original train rows excluding every target appearing in original validation or test; same supervised labels for P0, P1 and P2",
+  "P0": "Function annotations and known context covariates, no target control expression and no held-target response labels",
+  "P1": "P0 plus allowed non-targeting baseline; no response of any held validation/test target in training or input",
+  "P2": "Same supervised objective as P1 plus direct numeric responses from original training rows in the other contexts of held targets; held target-condition response never included",
+  "normalization_and_global_mean": "Fitted using common supervised training rows only",
+  "model_selection": "Original selection-validation target subset; calibration subset remains unused for selection",
+  "test_rows": "Original fixed target-condition test rows",
+  "models": ["ridge", "concat", "fv"],
+  "seeds": [11, 29, 47],
+  "hyperparameter_budget": "Unchanged from experiment_plan_frozen.json",
+  "initial_input_only_P1_P2_results_are_not_strict_all_source_information_deletion": true
+}

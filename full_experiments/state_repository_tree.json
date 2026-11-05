@@ -1,0 +1,1453 @@
+{
+  "sha": "9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+  "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/9bbfe78a434a55205e4de834e1ea99f85f7a3add",
+  "tree": [
+    {
+      "path": ".github",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0ea989c7a16bc7ddffd2a0805094c72723b2c182",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/0ea989c7a16bc7ddffd2a0805094c72723b2c182"
+    },
+    {
+      "path": ".github/CODEOWNERS",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe2a0b234239d961d0de65137b2f9b1eddab0634",
+      "size": 29,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/fe2a0b234239d961d0de65137b2f9b1eddab0634"
+    },
+    {
+      "path": ".github/workflows",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1fa692c8dc375b647e079d569de8ce391cc403db",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1fa692c8dc375b647e079d569de8ce391cc403db"
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18802c853d39cb2f3ba4e2b4fd935967d222e30c",
+      "size": 597,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/18802c853d39cb2f3ba4e2b4fd935967d222e30c"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8de16c55ce824187633854b1814a2ffb8dcc8b34",
+      "size": 126,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8de16c55ce824187633854b1814a2ffb8dcc8b34"
+    },
+    {
+      "path": ".gitmodules",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": ".python-version",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c0733315e415bfb5e5b353f9996ecd964d395b2",
+      "size": 5,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2c0733315e415bfb5e5b353f9996ecd964d395b2"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cdbe0b482f604a06a0988dad8877ae8d9257f7d",
+      "size": 20850,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/7cdbe0b482f604a06a0988dad8877ae8d9257f7d"
+    },
+    {
+      "path": "MODEL_ACCEPTABLE_USE_POLICY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2ee2bd897937a2ab6c38a48607b8614667f2826",
+      "size": 5131,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e2ee2bd897937a2ab6c38a48607b8614667f2826"
+    },
+    {
+      "path": "MODEL_LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d042683bd8bb93fc6e933b1db0be7f6974b9ac1f",
+      "size": 9865,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/d042683bd8bb93fc6e933b1db0be7f6974b9ac1f"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c35a7dd44fdcb776a75ce3149e22f71fddf88d9",
+      "size": 9208,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8c35a7dd44fdcb776a75ce3149e22f71fddf88d9"
+    },
+    {
+      "path": "assets",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7225c379a91a4089a5b526281f2098bd3d51234c",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/7225c379a91a4089a5b526281f2098bd3d51234c"
+    },
+    {
+      "path": "assets/generalization_task.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8f0973a3dabd42fbd5a6b23ab25e51525335e7",
+      "size": 137942,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/7f8f0973a3dabd42fbd5a6b23ab25e51525335e7"
+    },
+    {
+      "path": "examples",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "684397f1a592d83129b00b4bbbf0a26fbef58ca3",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/684397f1a592d83129b00b4bbbf0a26fbef58ca3"
+    },
+    {
+      "path": "examples/fewshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91cf9657f645525cac5951ee2f4d8e1e6669180a",
+      "size": 537,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/91cf9657f645525cac5951ee2f4d8e1e6669180a"
+    },
+    {
+      "path": "examples/mixed.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c2ddaafc828605fb18913e7b26733b868642ca",
+      "size": 528,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f0c2ddaafc828605fb18913e7b26733b868642ca"
+    },
+    {
+      "path": "examples/random.h5ad",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be0faf2b76b14b17a8afe484b695de73fccbc18d",
+      "size": 4919440,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/be0faf2b76b14b17a8afe484b695de73fccbc18d"
+    },
+    {
+      "path": "examples/zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2f7c42cc635243438e152ae10058374a3b2617",
+      "size": 431,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9b2f7c42cc635243438e152ae10058374a3b2617"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14afff28c229104b48eaaa3c961f44dd235b490c",
+      "size": 1397,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/14afff28c229104b48eaaa3c961f44dd235b490c"
+    },
+    {
+      "path": "ruff.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d25e8621373d70634b185dc67d8de429666ea25a",
+      "size": 106,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/d25e8621373d70634b185dc67d8de429666ea25a"
+    },
+    {
+      "path": "singularity.def",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81004425a025b0da8c3884486991407c956ed064",
+      "size": 1125,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/81004425a025b0da8c3884486991407c956ed064"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c39aee970c16ec46352ba832f529e9449a27d362",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/c39aee970c16ec46352ba832f529e9449a27d362"
+    },
+    {
+      "path": "src/state",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "efef3daddc71f3d035bd11137abe3bc1c6c5ae46",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/efef3daddc71f3d035bd11137abe3bc1c6c5ae46"
+    },
+    {
+      "path": "src/state/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "src/state/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d94541b661e31a4239bc5783bedd609f35f0a3",
+      "size": 4406,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/10d94541b661e31a4239bc5783bedd609f35f0a3"
+    },
+    {
+      "path": "src/state/_cli",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85ed9504bf1e82067ed4fca735df245d2b9a8aea",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/85ed9504bf1e82067ed4fca735df245d2b9a8aea"
+    },
+    {
+      "path": "src/state/_cli/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260df838540886d1e75990df18006f5cc04b3f3b",
+      "size": 513,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/260df838540886d1e75990df18006f5cc04b3f3b"
+    },
+    {
+      "path": "src/state/_cli/_emb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1e85c94c9dc2ba288f1c57584ba0dec0fa8d5ce0",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1e85c94c9dc2ba288f1c57584ba0dec0fa8d5ce0"
+    },
+    {
+      "path": "src/state/_cli/_emb/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8212fafa9f82da71032c6026a556daf5995ff441",
+      "size": 995,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8212fafa9f82da71032c6026a556daf5995ff441"
+    },
+    {
+      "path": "src/state/_cli/_emb/_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74ddd8fb3210ec3f9cd984882528aa3330727b50",
+      "size": 11803,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/74ddd8fb3210ec3f9cd984882528aa3330727b50"
+    },
+    {
+      "path": "src/state/_cli/_emb/_fit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fddbb032c793ba369ebd2b613d61fe1422a6ce86",
+      "size": 1740,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/fddbb032c793ba369ebd2b613d61fe1422a6ce86"
+    },
+    {
+      "path": "src/state/_cli/_emb/_preprocess.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9929532cd5cefe2a0bc8afa12d2c907120982fc2",
+      "size": 13341,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9929532cd5cefe2a0bc8afa12d2c907120982fc2"
+    },
+    {
+      "path": "src/state/_cli/_emb/_query.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31edbbff34903937192712b06399a6635a5f91c0",
+      "size": 4322,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/31edbbff34903937192712b06399a6635a5f91c0"
+    },
+    {
+      "path": "src/state/_cli/_emb/_transform.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2b2c19a7e162f2d598978fa73eb5c1b8b4eac63",
+      "size": 7629,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a2b2c19a7e162f2d598978fa73eb5c1b8b4eac63"
+    },
+    {
+      "path": "src/state/_cli/_tx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1352eecf137a84599910f4f6eea0ce0a05233f01",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1352eecf137a84599910f4f6eea0ce0a05233f01"
+    },
+    {
+      "path": "src/state/_cli/_tx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75de6a19e9fef828bdc2c000da24347ca036f78d",
+      "size": 811,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/75de6a19e9fef828bdc2c000da24347ca036f78d"
+    },
+    {
+      "path": "src/state/_cli/_tx/_infer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75d81b737519c08b3359744837b78d5625bf0cf7",
+      "size": 41900,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/75d81b737519c08b3359744837b78d5625bf0cf7"
+    },
+    {
+      "path": "src/state/_cli/_tx/_predict.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31830dcfc0ea034d895ff5cc7987300be4cbf339",
+      "size": 44355,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/31830dcfc0ea034d895ff5cc7987300be4cbf339"
+    },
+    {
+      "path": "src/state/_cli/_tx/_preprocess_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d9d9f8e7afaafc704b3b5bf75edd68a647a01f8",
+      "size": 1814,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8d9d9f8e7afaafc704b3b5bf75edd68a647a01f8"
+    },
+    {
+      "path": "src/state/_cli/_tx/_stream_h5ad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108d3c313c42420848552a20f3939fd170f2a860",
+      "size": 8184,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/108d3c313c42420848552a20f3939fd170f2a860"
+    },
+    {
+      "path": "src/state/_cli/_tx/_train.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a939d6e45dbcd257ac52d897d44a823a3284071",
+      "size": 17647,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2a939d6e45dbcd257ac52d897d44a823a3284071"
+    },
+    {
+      "path": "src/state/_cli/_tx/_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b1db7125dab7bada779f481b89d0b692f642568b",
+      "size": 1815,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/b1db7125dab7bada779f481b89d0b692f642568b"
+    },
+    {
+      "path": "src/state/configs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2dd4a691cf8e1299de4e8d28c26f0615901624cc",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/2dd4a691cf8e1299de4e8d28c26f0615901624cc"
+    },
+    {
+      "path": "src/state/configs/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/configs/config.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81e40d869e1fad6df2cb122783b35bf784032385",
+      "size": 891,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/81e40d869e1fad6df2cb122783b35bf784032385"
+    },
+    {
+      "path": "src/state/configs/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "da29443be44ad900706a3544b3004f72cb08ad39",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/da29443be44ad900706a3544b3004f72cb08ad39"
+    },
+    {
+      "path": "src/state/configs/data/default.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8767a60b86f97cb6a7aa1f8b5a6eac0029037da7",
+      "size": 591,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8767a60b86f97cb6a7aa1f8b5a6eac0029037da7"
+    },
+    {
+      "path": "src/state/configs/data/perturbation.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f09efbb90db3b7bc94d6c3b8b4951a327fbd266",
+      "size": 721,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/1f09efbb90db3b7bc94d6c3b8b4951a327fbd266"
+    },
+    {
+      "path": "src/state/configs/model",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c9aebf6d53bdba7d40d9e8bc263fe3f95a952e77",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/c9aebf6d53bdba7d40d9e8bc263fe3f95a952e77"
+    },
+    {
+      "path": "src/state/configs/model/celltypemean.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17a8fb270001a7c91acbd863b71b782df6a883b8",
+      "size": 639,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/17a8fb270001a7c91acbd863b71b782df6a883b8"
+    },
+    {
+      "path": "src/state/configs/model/context_mean.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0241b7678fbae7671c48debb6a8fd2a7ccad5155",
+      "size": 770,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/0241b7678fbae7671c48debb6a8fd2a7ccad5155"
+    },
+    {
+      "path": "src/state/configs/model/cpa.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f6d285c05bc9340b6e4a12a88e32678d1895d93",
+      "size": 525,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/5f6d285c05bc9340b6e4a12a88e32678d1895d93"
+    },
+    {
+      "path": "src/state/configs/model/decoder_only.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f6e7fdbe0a264bc9b85756838a3f475b4ba5824",
+      "size": 638,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/3f6e7fdbe0a264bc9b85756838a3f475b4ba5824"
+    },
+    {
+      "path": "src/state/configs/model/embedsum.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "269961d2beec8e3f750a85c3de1a93117bc61f1f",
+      "size": 303,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/269961d2beec8e3f750a85c3de1a93117bc61f1f"
+    },
+    {
+      "path": "src/state/configs/model/globalsimplesum.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31ec6579961cea138f7c130276d2b5da82e63743",
+      "size": 642,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/31ec6579961cea138f7c130276d2b5da82e63743"
+    },
+    {
+      "path": "src/state/configs/model/old_neuralot.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7e1f817730b9f8c9479fc2780642f4b571eb9cd",
+      "size": 635,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f7e1f817730b9f8c9479fc2780642f4b571eb9cd"
+    },
+    {
+      "path": "src/state/configs/model/pertsets.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3108859120ee64624f363dd83274bf2b530543a8",
+      "size": 1630,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/3108859120ee64624f363dd83274bf2b530543a8"
+    },
+    {
+      "path": "src/state/configs/model/perturb_mean.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "43a7e9247a99a81226bdc8a1cc916e3ec1f9c90a",
+      "size": 770,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/43a7e9247a99a81226bdc8a1cc916e3ec1f9c90a"
+    },
+    {
+      "path": "src/state/configs/model/pseudobulk.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9342163d22eaae62bab04f52a26e7ff43f57a5c1",
+      "size": 1343,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9342163d22eaae62bab04f52a26e7ff43f57a5c1"
+    },
+    {
+      "path": "src/state/configs/model/scgpt-chemical.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "482c172c6fdc5d3a108a8dc2a0d2bd8b283f0014",
+      "size": 1428,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/482c172c6fdc5d3a108a8dc2a0d2bd8b283f0014"
+    },
+    {
+      "path": "src/state/configs/model/scgpt-genetic.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85d02f8cab8113accbf138dc98ead7754e5786b1",
+      "size": 1424,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/85d02f8cab8113accbf138dc98ead7754e5786b1"
+    },
+    {
+      "path": "src/state/configs/model/scvi.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85cd3a9410490a3deb18deddb90c0f1fefcb1c6b",
+      "size": 411,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/85cd3a9410490a3deb18deddb90c0f1fefcb1c6b"
+    },
+    {
+      "path": "src/state/configs/model/state.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b045c59bb60fa9eed96a48acea7c39baec1712f4",
+      "size": 1494,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/b045c59bb60fa9eed96a48acea7c39baec1712f4"
+    },
+    {
+      "path": "src/state/configs/model/state_lg.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2f2f6226430039c6007e52122dbd3c05c108363",
+      "size": 1385,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a2f2f6226430039c6007e52122dbd3c05c108363"
+    },
+    {
+      "path": "src/state/configs/model/state_sm.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f6d156b656938452181f308c9000cdee83ad505",
+      "size": 1427,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2f6d156b656938452181f308c9000cdee83ad505"
+    },
+    {
+      "path": "src/state/configs/model/tahoe_best.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70a9cdf243e85ef3ee94b44decf945fb21fd9300",
+      "size": 1121,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/70a9cdf243e85ef3ee94b44decf945fb21fd9300"
+    },
+    {
+      "path": "src/state/configs/model/tahoe_llama_212693232.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae113528dc9700747d486c2cc422425f9633b285",
+      "size": 1178,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/ae113528dc9700747d486c2cc422425f9633b285"
+    },
+    {
+      "path": "src/state/configs/model/tahoe_llama_62089464.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a985f997ee7125f4e2a35d04dbc895c5a3584258",
+      "size": 1119,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a985f997ee7125f4e2a35d04dbc895c5a3584258"
+    },
+    {
+      "path": "src/state/configs/state-defaults.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8968115b79a010f6e4b7058c4d1bac14b1613364",
+      "size": 8449,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8968115b79a010f6e4b7058c4d1bac14b1613364"
+    },
+    {
+      "path": "src/state/configs/training",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e387988d77770e3a79877bfcf01005a618cb9db3",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/e387988d77770e3a79877bfcf01005a618cb9db3"
+    },
+    {
+      "path": "src/state/configs/training/cpa.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "63cc280c9e3c91905ad92b1abb403aa300595347",
+      "size": 344,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/63cc280c9e3c91905ad92b1abb403aa300595347"
+    },
+    {
+      "path": "src/state/configs/training/default.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e865403ca9da989fe4af8e1c763af3ad187d9357",
+      "size": 484,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e865403ca9da989fe4af8e1c763af3ad187d9357"
+    },
+    {
+      "path": "src/state/configs/training/scgpt.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a0457c90cc41606c92b4102ef1056f0eea04eaf",
+      "size": 180,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/3a0457c90cc41606c92b4102ef1056f0eea04eaf"
+    },
+    {
+      "path": "src/state/configs/training/scvi.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "756a436f0dff81d6370a9b1ab5ea224639a78de6",
+      "size": 204,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/756a436f0dff81d6370a9b1ab5ea224639a78de6"
+    },
+    {
+      "path": "src/state/configs/wandb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8765021269ab2c81f6fbffb623230fad6333fdfb",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/8765021269ab2c81f6fbffb623230fad6333fdfb"
+    },
+    {
+      "path": "src/state/configs/wandb/default.yaml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d13940ae85b41a767d25b044e2e4c833b522038",
+      "size": 166,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/0d13940ae85b41a767d25b044e2e4c833b522038"
+    },
+    {
+      "path": "src/state/emb",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "17962b2cc3b2a186a350e739809ed4347097602e",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/17962b2cc3b2a186a350e739809ed4347097602e"
+    },
+    {
+      "path": "src/state/emb/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b59dfb8b9c4e0c4021cb80223d8c7d59e2eb4f16",
+      "size": 1265,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/b59dfb8b9c4e0c4021cb80223d8c7d59e2eb4f16"
+    },
+    {
+      "path": "src/state/emb/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1b87dd043c0b9a77ec0cd1389bc06386e0bcca5d",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1b87dd043c0b9a77ec0cd1389bc06386e0bcca5d"
+    },
+    {
+      "path": "src/state/emb/data/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9120cd7e243c4c15902b1573ee3db95596e8e8ce",
+      "size": 173,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9120cd7e243c4c15902b1573ee3db95596e8e8ce"
+    },
+    {
+      "path": "src/state/emb/data/loader.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d40a0b83613df05d6450d9f395c55a5b0100fb1",
+      "size": 26283,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2d40a0b83613df05d6450d9f395c55a5b0100fb1"
+    },
+    {
+      "path": "src/state/emb/eval",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1f2f4b8b40d2bd71375e1ab39095e53474cd42c6",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1f2f4b8b40d2bd71375e1ab39095e53474cd42c6"
+    },
+    {
+      "path": "src/state/emb/eval/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d54b183f5e43c09f0956c41b4b147c8e39e1dc2",
+      "size": 68,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/0d54b183f5e43c09f0956c41b4b147c8e39e1dc2"
+    },
+    {
+      "path": "src/state/emb/eval/emb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3bbb8d5c6d88e0c95fea99f248fc84cf6d543c3",
+      "size": 1947,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/b3bbb8d5c6d88e0c95fea99f248fc84cf6d543c3"
+    },
+    {
+      "path": "src/state/emb/finetune_decoder.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50880a9d5f8c1724acb0efeed6da79fd3b9d9d59",
+      "size": 15089,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/50880a9d5f8c1724acb0efeed6da79fd3b9d9d59"
+    },
+    {
+      "path": "src/state/emb/inference.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf97a23edf32a24c35f1dcde2640596b17a3c3a7",
+      "size": 16976,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/bf97a23edf32a24c35f1dcde2640596b17a3c3a7"
+    },
+    {
+      "path": "src/state/emb/nn",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a4e2a7ba292d37b1e24583dc8e301717d68710a4",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/a4e2a7ba292d37b1e24583dc8e301717d68710a4"
+    },
+    {
+      "path": "src/state/emb/nn/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/emb/nn/eval_utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "283d2977a3f62699785f3073b9ba10b117bbb2a9",
+      "size": 16540,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/283d2977a3f62699785f3073b9ba10b117bbb2a9"
+    },
+    {
+      "path": "src/state/emb/nn/flash_transformer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba64b16733b7aa16f13bb5bd3d5027e41003077a",
+      "size": 4071,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/ba64b16733b7aa16f13bb5bd3d5027e41003077a"
+    },
+    {
+      "path": "src/state/emb/nn/loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98764a4885d914bceba53244580cf77061f5dd35",
+      "size": 4524,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/98764a4885d914bceba53244580cf77061f5dd35"
+    },
+    {
+      "path": "src/state/emb/nn/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a332d7d833671007031dbe9d68adc3c1b9a264df",
+      "size": 19188,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a332d7d833671007031dbe9d68adc3c1b9a264df"
+    },
+    {
+      "path": "src/state/emb/tools",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "95a23df063d7c11826d4f3396d11407a9658fc71",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/95a23df063d7c11826d4f3396d11407a9658fc71"
+    },
+    {
+      "path": "src/state/emb/tools/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/emb/tools/slurm.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7207df3f7afdf1f8c61fe10311f2998cb499f2ba",
+      "size": 5986,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/7207df3f7afdf1f8c61fe10311f2998cb499f2ba"
+    },
+    {
+      "path": "src/state/emb/train",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "85ae2e39bcc8a4cfd244444ca57f130bfa7a81f8",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/85ae2e39bcc8a4cfd244444ca57f130bfa7a81f8"
+    },
+    {
+      "path": "src/state/emb/train/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/emb/train/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a24f48a19bbd29395369a4237fb974ad3b9a00f",
+      "size": 2086,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2a24f48a19bbd29395369a4237fb974ad3b9a00f"
+    },
+    {
+      "path": "src/state/emb/train/callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9764ecca09dfe56f7b636484e23468eaafbd8de",
+      "size": 8368,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f9764ecca09dfe56f7b636484e23468eaafbd8de"
+    },
+    {
+      "path": "src/state/emb/train/trainer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a94454268ddcf56e856466228a6e2fd0c6e29b07",
+      "size": 6649,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a94454268ddcf56e856466228a6e2fd0c6e29b07"
+    },
+    {
+      "path": "src/state/emb/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b4b3618f5ec2d52ab5479780f8ef76e60ecbb8e",
+      "size": 10270,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2b4b3618f5ec2d52ab5479780f8ef76e60ecbb8e"
+    },
+    {
+      "path": "src/state/emb/vectordb.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1a9be078aea3ed3082cdaf4b0c2c47545d15199",
+      "size": 5659,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f1a9be078aea3ed3082cdaf4b0c2c47545d15199"
+    },
+    {
+      "path": "src/state/py.typed",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/tx",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3e002b9491f785144f55cf2962a2304241e80acb",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/3e002b9491f785144f55cf2962a2304241e80acb"
+    },
+    {
+      "path": "src/state/tx/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "src/state/tx/callbacks",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "83464a368a4a6af95315790b5797579f419059b8",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/83464a368a4a6af95315790b5797579f419059b8"
+    },
+    {
+      "path": "src/state/tx/callbacks/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fe87054a064e938d8de85529282559698b42b15",
+      "size": 1027,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/1fe87054a064e938d8de85529282559698b42b15"
+    },
+    {
+      "path": "src/state/tx/callbacks/batch_speed_monitor.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f34323f16a29d715d4401bb1ff22e7a6aa569bf",
+      "size": 2617,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2f34323f16a29d715d4401bb1ff22e7a6aa569bf"
+    },
+    {
+      "path": "src/state/tx/callbacks/cumulative_flops.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ab05ce161583ecf95847d993bbb1030f2b05b3c",
+      "size": 3967,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/6ab05ce161583ecf95847d993bbb1030f2b05b3c"
+    },
+    {
+      "path": "src/state/tx/callbacks/model_flops_utilization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "071e79dc0d6fecaa332100af16d57eab61688efc",
+      "size": 8065,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/071e79dc0d6fecaa332100af16d57eab61688efc"
+    },
+    {
+      "path": "src/state/tx/data",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d0add5e6b047997c418b92c2ac20583a2b2b0306",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/d0add5e6b047997c418b92c2ac20583a2b2b0306"
+    },
+    {
+      "path": "src/state/tx/data/dataset",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "dc9456eddf9797523e92d61ba0b3474f5b6e407f",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/dc9456eddf9797523e92d61ba0b3474f5b6e407f"
+    },
+    {
+      "path": "src/state/tx/data/dataset/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "133972f0a49f75b4ad2b645e1f771aa0f24bf7c6",
+      "size": 105,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/133972f0a49f75b4ad2b645e1f771aa0f24bf7c6"
+    },
+    {
+      "path": "src/state/tx/data/dataset/scgpt_perturbation_dataset.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96a47fd23bca2a86c926d0c7bf99ec42b205d2d7",
+      "size": 16215,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/96a47fd23bca2a86c926d0c7bf99ec42b205d2d7"
+    },
+    {
+      "path": "src/state/tx/models",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "44466d3804337c8ca8a5312a8f0963bb466e32d6",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/44466d3804337c8ca8a5312a8f0963bb466e32d6"
+    },
+    {
+      "path": "src/state/tx/models/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "850f30bbe36b0b6d02f759483ecc0704c0faefbd",
+      "size": 713,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/850f30bbe36b0b6d02f759483ecc0704c0faefbd"
+    },
+    {
+      "path": "src/state/tx/models/base.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c34bccdec4e1045dbb82d7d4c78aa67338fbba2a",
+      "size": 17861,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/c34bccdec4e1045dbb82d7d4c78aa67338fbba2a"
+    },
+    {
+      "path": "src/state/tx/models/context_mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6b4ec581b1886983319f8f880eaffa96d2c40d",
+      "size": 10630,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/cf6b4ec581b1886983319f8f880eaffa96d2c40d"
+    },
+    {
+      "path": "src/state/tx/models/cpa",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5ae9acc276b383efb440ee81d676659c457f4188",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/5ae9acc276b383efb440ee81d676659c457f4188"
+    },
+    {
+      "path": "src/state/tx/models/cpa/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cd283fa6f338be3f9ff8898d276bff12de83909",
+      "size": 77,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/1cd283fa6f338be3f9ff8898d276bff12de83909"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_base_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9475b8b6515a1c4a31420cb8049ce819e9795578",
+      "size": 10920,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9475b8b6515a1c4a31420cb8049ce819e9795578"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "befb433eb076d9847ec377080e3c05b30c632395",
+      "size": 1219,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/befb433eb076d9847ec377080e3c05b30c632395"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_dists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18423b168ee2f2e9b40066fe2b12b9deab9f4da2",
+      "size": 12648,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/18423b168ee2f2e9b40066fe2b12b9deab9f4da2"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a10ec8ce6246ccc2097734a1ef0c1f623f91b0b2",
+      "size": 24526,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a10ec8ce6246ccc2097734a1ef0c1f623f91b0b2"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_module.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9027be34aa24f8c20cf99301ac955f3390d5cae8",
+      "size": 15107,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9027be34aa24f8c20cf99301ac955f3390d5cae8"
+    },
+    {
+      "path": "src/state/tx/models/cpa/_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2070701342e812193bae29f1a79a66cc97b0743",
+      "size": 16648,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a2070701342e812193bae29f1a79a66cc97b0743"
+    },
+    {
+      "path": "src/state/tx/models/decoder_only.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad0b2ce2ece17a87b595414b9a8f7478eb9ea9f0",
+      "size": 5533,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/ad0b2ce2ece17a87b595414b9a8f7478eb9ea9f0"
+    },
+    {
+      "path": "src/state/tx/models/decoders.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "613397f7bbbc97e06c148c313db3b4473c0a83dd",
+      "size": 9114,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/613397f7bbbc97e06c148c313db3b4473c0a83dd"
+    },
+    {
+      "path": "src/state/tx/models/embed_sum.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aef97b4eb6fb3049cbd8d7b52b824a87565246f",
+      "size": 4911,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8aef97b4eb6fb3049cbd8d7b52b824a87565246f"
+    },
+    {
+      "path": "src/state/tx/models/old_neural_ot.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88c2090f78160b80ff92e27ab15551c6310c675f",
+      "size": 10226,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/88c2090f78160b80ff92e27ab15551c6310c675f"
+    },
+    {
+      "path": "src/state/tx/models/perturb_mean.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c765da1514df65ee04705826c2a046c5788c289",
+      "size": 11671,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2c765da1514df65ee04705826c2a046c5788c289"
+    },
+    {
+      "path": "src/state/tx/models/pseudobulk.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f7b8577a8dd04d151aaee0a963e0ae608979427",
+      "size": 18269,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8f7b8577a8dd04d151aaee0a963e0ae608979427"
+    },
+    {
+      "path": "src/state/tx/models/scgpt",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "3412436c8bc5ed93e8fc883e18aaa5cc931b0067",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/3412436c8bc5ed93e8fc883e18aaa5cc931b0067"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "852431e8bd1274cdc272390d8804f9732c6f1a2e",
+      "size": 417,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/852431e8bd1274cdc272390d8804f9732c6f1a2e"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/dsbn.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50719df4f30f12b0a0342d955d05fb6273b0e327",
+      "size": 2281,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/50719df4f30f12b0a0342d955d05fb6273b0e327"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/gene_tokenizer.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d70ef9962c89102b2fa1b4db3d18b027778345eb",
+      "size": 13540,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/d70ef9962c89102b2fa1b4db3d18b027778345eb"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/generation_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50467692c78dfb335df69cb09720e884849c02af",
+      "size": 26541,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/50467692c78dfb335df69cb09720e884849c02af"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/grad_reverse.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dc7e6127717d1682253fb6d278d2f389ba974c0",
+      "size": 469,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/7dc7e6127717d1682253fb6d278d2f389ba974c0"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/lightning_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c18264c8c3b5e9a08d594d9c2df716ba47e832bd",
+      "size": 11614,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/c18264c8c3b5e9a08d594d9c2df716ba47e832bd"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/loss.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d734124d59d7a224f1895c7217f255a92505256",
+      "size": 1050,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/6d734124d59d7a224f1895c7217f255a92505256"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "21c96ae01f6744cbd3f39079362eed3dc63c95ed",
+      "size": 37670,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/21c96ae01f6744cbd3f39079362eed3dc63c95ed"
+    },
+    {
+      "path": "src/state/tx/models/scgpt/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c186f58df58e3d8b93ed71253a8b22a830ddd444",
+      "size": 1241,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/c186f58df58e3d8b93ed71253a8b22a830ddd444"
+    },
+    {
+      "path": "src/state/tx/models/scvi",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2a7ec179dc46a62b47b4ee3d9a2e08fcc26256b0",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/2a7ec179dc46a62b47b4ee3d9a2e08fcc26256b0"
+    },
+    {
+      "path": "src/state/tx/models/scvi/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46582ddece9a000782a3268dcfc479edc29ef3c0",
+      "size": 79,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/46582ddece9a000782a3268dcfc479edc29ef3c0"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_base_modules.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4605af37d30eb481b932af3a27c45cfb75ff36",
+      "size": 9588,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2d4605af37d30eb481b932af3a27c45cfb75ff36"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "befb433eb076d9847ec377080e3c05b30c632395",
+      "size": 1219,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/befb433eb076d9847ec377080e3c05b30c632395"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_dists.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "18423b168ee2f2e9b40066fe2b12b9deab9f4da2",
+      "size": 12648,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/18423b168ee2f2e9b40066fe2b12b9deab9f4da2"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_model.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2760d74c93b134db59a2d744f29da0e5a4ac18b1",
+      "size": 13486,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2760d74c93b134db59a2d744f29da0e5a4ac18b1"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_module.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f82b882797cf17cc84570e49a4175a133e7457b8",
+      "size": 11182,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f82b882797cf17cc84570e49a4175a133e7457b8"
+    },
+    {
+      "path": "src/state/tx/models/scvi/_task.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71a596717057d22bf4ab1f1e85b58c45a8af152c",
+      "size": 16650,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/71a596717057d22bf4ab1f1e85b58c45a8af152c"
+    },
+    {
+      "path": "src/state/tx/models/state_transition.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d0f0d57620f6102996e8ac328428d14e46fd4e",
+      "size": 36471,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/20d0f0d57620f6102996e8ac328428d14e46fd4e"
+    },
+    {
+      "path": "src/state/tx/models/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fdfdf577d91933a4d31676b1125c7d7b274926fc",
+      "size": 12868,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/fdfdf577d91933a4d31676b1125c7d7b274926fc"
+    },
+    {
+      "path": "src/state/tx/utils",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "1d90c80f03d599e4fb8d84d677a45df494066a54",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/1d90c80f03d599e4fb8d84d677a45df494066a54"
+    },
+    {
+      "path": "src/state/tx/utils/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4fcf9acd45d5276cb28675d7ff93c433dd3aab7",
+      "size": 13073,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e4fcf9acd45d5276cb28675d7ff93c433dd3aab7"
+    },
+    {
+      "path": "src/state/tx/utils/singleton.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27804476388b73d038a07a5fe0c85f4a41c54d7b",
+      "size": 486,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/27804476388b73d038a07a5fe0c85f4a41c54d7b"
+    },
+    {
+      "path": "state_preprint_toml_files",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e53c619eb134aead16d96843dbae245585243bc3",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/e53c619eb134aead16d96843dbae245585243bc3"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "29ae3fed4a5627a0f9d26c98587001fd8f689ec3",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/29ae3fed4a5627a0f9d26c98587001fd8f689ec3"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/celltype.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30e5d1e6ea9506188e1adceeb0a4c9e5498a2e4",
+      "size": 2487,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/f30e5d1e6ea9506188e1adceeb0a4c9e5498a2e4"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/donor.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fcc156e5fd7fe48828e6134906c82ece2f40e87e",
+      "size": 3156,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/fcc156e5fd7fe48828e6134906c82ece2f40e87e"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_1.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb0dec291d0666d7f23b96386d9a25cd38ddbc6",
+      "size": 1103,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/6eb0dec291d0666d7f23b96386d9a25cd38ddbc6"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_1_zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "693f39852951146927f8cfd12756b63674b1870b",
+      "size": 439,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/693f39852951146927f8cfd12756b63674b1870b"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_2.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e57d6a348b6fc839fedd08c5015a3b600b817e10",
+      "size": 1089,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/e57d6a348b6fc839fedd08c5015a3b600b817e10"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_2_zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beada67b9f9f92e85610b4f8f8efc305f34e9b86",
+      "size": 425,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/beada67b9f9f92e85610b4f8f8efc305f34e9b86"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_3.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8426e7374b27d6a0697054057ab2945549ae0bed",
+      "size": 1093,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/8426e7374b27d6a0697054057ab2945549ae0bed"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_3_zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef66eca7811771bea941040e57ac44bb7d2d757d",
+      "size": 429,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/ef66eca7811771bea941040e57ac44bb7d2d757d"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_4.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9d13ee27f241146426d00ff7a8c9c9ed1f0fcfc",
+      "size": 1092,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/a9d13ee27f241146426d00ff7a8c9c9ed1f0fcfc"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_4_zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bc4cd0f0ca5727aa50d5e08600c3acd0e38e3c5",
+      "size": 428,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/2bc4cd0f0ca5727aa50d5e08600c3acd0e38e3c5"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_5.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420441f5c3d2b84e1b3c96e16626ff9cdbe05a84",
+      "size": 1091,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/420441f5c3d2b84e1b3c96e16626ff9cdbe05a84"
+    },
+    {
+      "path": "state_preprint_toml_files/parse_tomls/split_5_zeroshot.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83ded5740ff4875fd6d54b990a7cef5045872479",
+      "size": 427,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/83ded5740ff4875fd6d54b990a7cef5045872479"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e5a80904f555e0ed28087f4ddff8e58520cb5b20",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/e5a80904f555e0ed28087f4ddff8e58520cb5b20"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/hepg2.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "246c30cbdc0877351e8e9597b04f6c02910e06b6",
+      "size": 9122,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/246c30cbdc0877351e8e9597b04f6c02910e06b6"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/hepg2_zeroshot.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "6619a26b7e23a0f5fa1a00c7d7143c22f15d03f7",
+      "size": 429,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/6619a26b7e23a0f5fa1a00c7d7143c22f15d03f7"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/jurkat.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "03ef5b4d97442f280bedd173cd1bb5463c5a09df",
+      "size": 10393,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/03ef5b4d97442f280bedd173cd1bb5463c5a09df"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/jurkat_zeroshot.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "29555dcb8e4596fb27d742389a37b1ca5ad4f71c",
+      "size": 430,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/29555dcb8e4596fb27d742389a37b1ca5ad4f71c"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/k562.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "04f232ee0d9372d5c5c5f82992c44716554f1c17",
+      "size": 9333,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/04f232ee0d9372d5c5c5f82992c44716554f1c17"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/k562_zeroshot.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "0919764798e491e6c9365fd03127331531088778",
+      "size": 428,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/0919764798e491e6c9365fd03127331531088778"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/rpe1.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "580022a5b4ddb5a5fed6185b7f14898c2a6c29e3",
+      "size": 10158,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/580022a5b4ddb5a5fed6185b7f14898c2a6c29e3"
+    },
+    {
+      "path": "state_preprint_toml_files/replogle_tomls/rpe1_zeroshot.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "249a87c26624f7f2c0f45df907b24508614047b6",
+      "size": 428,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/249a87c26624f7f2c0f45df907b24508614047b6"
+    },
+    {
+      "path": "state_preprint_toml_files/tahoe_tomls",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4f3c7a74c617c91571a0950f908950cd72375cff",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/4f3c7a74c617c91571a0950f908950cd72375cff"
+    },
+    {
+      "path": "state_preprint_toml_files/tahoe_tomls/generalization.toml",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "237088eea7f0529ba32537052408eb1cb1fc56b8",
+      "size": 150875,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/237088eea7f0529ba32537052408eb1cb1fc56b8"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b61ca856c2b8eedd341cdfb697536a7f0af63db7",
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/trees/b61ca856c2b8eedd341cdfb697536a7f0af63db7"
+    },
+    {
+      "path": "tests/test_bidirectional_models.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a0576be73137f9984ecd54c02f7ce22610a232c",
+      "size": 12431,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/9a0576be73137f9984ecd54c02f7ce22610a232c"
+    },
+    {
+      "path": "tests/test_callbacks.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b84f4c5cab342cf3485ea2cbfe3f27db86214b8b",
+      "size": 8421,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/b84f4c5cab342cf3485ea2cbfe3f27db86214b8b"
+    },
+    {
+      "path": "tests/test_raw_count_normalization.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48e97e4a370e242938f2bf19e2085a1fbe382ed2",
+      "size": 5399,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/48e97e4a370e242938f2bf19e2085a1fbe382ed2"
+    },
+    {
+      "path": "tests/test_stream_h5ad.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61daf05ce4ce4fb1f8897002a19d24276e107009",
+      "size": 5325,
+      "url": "https://api.github.com/repos/ArcInstitute/state/git/blobs/61daf05ce4ce4fb1f8897002a19d24276e107009"
+    }
+  ],
+  "truncated": false
+}

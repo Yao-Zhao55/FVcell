@@ -1,0 +1,16 @@
+{
+  "freeze_date": "2026-10-26",
+  "reason": "Provide donor-level rather than gene/target-level uncertainty. Fixed before any donor model test result was inspected.",
+  "donor_order": ["CE0008678", "CE0010866", "CE0008162", "CE0006864"],
+  "outer_fold": "test donor = order[i]; validation donor = order[(i+1) mod 4]; the remaining two donors train",
+  "fold0_equals_original_frozen_assignment": true,
+  "models_P1": ["ridge", "shared", "concat", "state_official", "fv"],
+  "seeds": [11, 29, 47],
+  "gene_universe": "all 18129 genes in published pseudobulk, no donor-pooled HVG selection",
+  "unit": "delta_log2_CPM_plus_1, separately evaluated from pooled DESeq2 effects",
+  "QC": "n_cells>=5, finite nonnegative counts and positive aggregate library; no keep_effective_guides, keep_for_DE or significance-based filtering",
+  "selection_and_calibration": "Target-hash split within the sole validation donor; never test donor labels",
+  "budget": "Same as experiment_plan_frozen.json, independently tuned per outer fold on its own validation donor",
+  "uncertainty": "Paired contrast using four held-out donor scores, seeds averaged inside donor. Only four biological donors and overlapping CV training sets; not a large independent clinical validation.",
+  "upstream_limitation": "Published curated target labels and primary assayed target coverage universe retained."
+}

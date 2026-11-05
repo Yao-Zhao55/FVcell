@@ -1,0 +1,38 @@
+{
+  "name": "STATE official pseudobulk backbone, endpoint adapter",
+  "source": "https://github.com/ArcInstitute/state",
+  "license": "CC-BY-NC-SA-4.0",
+  "modifications": [
+    {
+      "file": "base.py",
+      "original_sha256": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd",
+      "runtime_sha256": "cfc68762c7e70d6e0da381adb9ca037795e835afa535ab602c6e327f13459ebd",
+      "change": "none"
+    },
+    {
+      "file": "utils.py",
+      "original_sha256": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+      "runtime_sha256": "30dc320813e326516d22fc47162d5ec571511a25345af3f0e0fc1cef94ffd715",
+      "change": "none"
+    },
+    {
+      "file": "decoders.py",
+      "original_sha256": "b4b55f3a47b806f1fd73eada34c6ae3faa65e5f9219184453cc38ecddd92b470",
+      "runtime_sha256": "5b99c4821006840b04d59c7f9410e381ba0fbb1610cd140cdf04f90ed5e3b7df",
+      "change": "lazy optional Finetune import only"
+    },
+    {
+      "file": "pseudobulk.py",
+      "original_sha256": "7da65da4048408aeb40460ea412620bca52673a5a2607da0fcb0711d52ef9001",
+      "runtime_sha256": "7da65da4048408aeb40460ea412620bca52673a5a2607da0fcb0711d52ef9001",
+      "change": "none"
+    }
+  ],
+  "adaptations": [
+    "sequence length 1 = one real aggregated endpoint, not a fake single cell",
+    "input control embedding 35D, perturbation features 65D, identical permissions to other suite models",
+    "signed logFC response output; no pretrained decoder or weights",
+    "same supervised robust endpoint loss and budget as matched baselines, not original OT set-distribution training"
+  ],
+  "not_a_replication_of_published_STATE_single_cell_metrics": true
+}

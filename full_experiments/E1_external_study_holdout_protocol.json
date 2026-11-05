@@ -1,0 +1,15 @@
+{
+  "freeze_date": "2026-10-26",
+  "scope": "Independent quantitative-response study holdout using Replogle 2022 K562/RPE1 as out-of-domain tests. This is not independent primary-T validation.",
+  "training": "Only GWT raw-QC responses from CE0008162 and CE0006864, all three T conditions, on the same metadata-only matched target/gene intersection as E3",
+  "validation": "CE0010866 T donor, selection/calibration target hash as frozen",
+  "excluded": "CE0008678 T donor responses; every K562/RPE1 perturbation-response label from training, transforms, selection and calibration",
+  "test": "All matched K562 and RPE1 target responses",
+  "permission": "P1 direct inputs: target function annotations and external non-targeting controls allowed; no direct same-target response vector or pretrained numeric teacher",
+  "control_encoding": "Same fixed control projection and literal-context hash as E3, trained normalization only on the two training T donors",
+  "models": ["zero", "training_mean", "ridge", "concat", "state_official", "fv"],
+  "seeds": [11, 29, 47],
+  "budget": "experiment_plan_frozen.json",
+  "limitations": ["cell line and assay/platform/time shift", "source retained-gene libraries differ", "target selection conditional on matched coverage", "Reactome annotation references have not been individually traced to exclude literature knowledge from the held study", "no formal conformal exchangeability guarantee across studies"],
+  "no_pretrained_or_other_task_weights_reused": true
+}

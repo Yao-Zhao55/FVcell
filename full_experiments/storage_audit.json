@@ -1,0 +1,10 @@
+{
+  "logical_file_bytes_in_day25_26": 85979340526,
+  "logical_size_GB": 85.979340526,
+  "file_count": 33952,
+  "unreadable_paths": [],
+  "free_disk_GB": 338.314674176,
+  "primary_and_external_data_download_bytes": 64136513822,
+  "cloud_used": false,
+  "observed_at": "2026-10-26T14:23:13.081560+08:00"
+}

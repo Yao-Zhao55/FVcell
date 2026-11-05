@@ -1,0 +1,18 @@
+{
+  "role": "existing minimal additive comparator; rerun to match the expanded validation/calibration split",
+  "shared_weights": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "residual_weights": [
+    0.0,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "test_results_of_existing_family_were_previously_seen": true,
+  "grid_unchanged_from_first_training": true,
+  "no_test_based_selection": true
+}
