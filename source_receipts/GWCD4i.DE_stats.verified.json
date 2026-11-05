@@ -1,0 +1,7 @@
+{
+  "asset": "de_stats",
+  "bytes": 16786240107,
+  "etag": "\"c9ff52fcc6d6ce8a387a76dc757a5b97-2002\"",
+  "sha256": "c355f535ff32cf7ba1edc49cf9c6039fe84f2c9ebe4d005515cba75790cfbb62",
+  "validation": "pinned S3 object ETag on every range, per-chunk SHA256, complete size and HDF5 signature; source multipart ETag is not a published MD5"
+}

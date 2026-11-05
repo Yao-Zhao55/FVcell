@@ -1,0 +1,12 @@
+{
+  "state": "all_received_ranges_verified_on_disk",
+  "bytes": 3857480145,
+  "ranges": 1840,
+  "sha256": "344a890a56a93bb01c4f7d86bd55ecca118950af43e20023e84c9a689cbb00d5",
+  "received_range_hashes_match_disk": true,
+  "publisher_checksum_available": false,
+  "gzip_CRC": "verified by two complete preprocessing streams",
+  "biological_validation_complete": false,
+  "updated_epoch": 1793049074.6142282,
+  "biological_evaluation_completed": true
+}

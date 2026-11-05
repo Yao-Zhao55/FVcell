@@ -1,0 +1,7 @@
+{
+  "asset": "pseudobulk",
+  "bytes": 44566657140,
+  "etag": "\"010c14e0af0dccbc2524529d28ca517e-5313\"",
+  "sha256": "fd2b8c21d357f8699ec34e2d5ebc1639612c27a0147a9ca94d4983822d93247e",
+  "validation": "pinned S3 object ETag on every range, per-chunk SHA256, complete size and HDF5 signature; source multipart ETag is not a published MD5"
+}

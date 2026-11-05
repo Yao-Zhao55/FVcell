@@ -1,0 +1,17 @@
+{
+  "independent_paper.xml": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13060838/fullTextXML",
+    "bytes": 161226,
+    "sha256": "094ecf87cec0d078af0c98534ece92603ecd21f35fdf86ea166c6b234df77bd2"
+  },
+  "independent_paper_metadata.json": {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:PMC13060838&format=json",
+    "bytes": 181,
+    "sha256": "a43138274a1cf60c9dc50d20501e496adad238b148bbff0014fd20754e440448"
+  },
+  "GSE278572_latest.txt": {
+    "url": "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE278572&targ=self&form=text&view=full",
+    "bytes": 5321,
+    "sha256": "eda64226fa74317e60f601f8e2813933eaf2fee18c5f01944c78b166f041c2a9"
+  }
+}
