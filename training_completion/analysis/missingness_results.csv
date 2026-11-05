@@ -1,0 +1,16 @@
+﻿observed_fraction,family,mae,seed_sd,role
+1.0,concat,0.174323561485221,6.613402727921918e-06,full-label reference; matching original global-target split
+0.7,concat,0.17435061721049114,5.977042545656288e-06,nested artificial training-label deletion; actual test responses
+0.3,concat,0.17444485562019396,4.132794359246395e-06,nested artificial training-label deletion; actual test responses
+1.0,fv,0.1743559179934762,2.966272788681956e-06,full-label reference; matching original global-target split
+0.7,fv,0.17440382974550073,1.2533508303299749e-05,nested artificial training-label deletion; actual test responses
+0.3,fv,0.17454589237384663,1.4182441805255241e-05,nested artificial training-label deletion; actual test responses
+1.0,state_official,0.174244945001559,3.080204072183148e-06,full-label reference; matching original global-target split
+0.7,state_official,0.17425587127768427,3.1192753545221883e-06,nested artificial training-label deletion; actual test responses
+0.3,state_official,0.1743081178162104,5.463730997164703e-06,nested artificial training-label deletion; actual test responses
+1.0,hierarchical_pooled,0.1743831326068601,5.58230332530153e-06,full-label reference; matching original global-target split
+0.7,hierarchical_pooled,0.17445228118549472,1.4754181474282866e-05,nested artificial training-label deletion; actual test responses
+0.3,hierarchical_pooled,0.17472469257823095,1.6764167853967786e-05,nested artificial training-label deletion; actual test responses
+1.0,fv_continued,0.17438377139171335,5.779830656401392e-06,full-label reference; matching original global-target split
+0.7,fv_continued,0.17445204375124376,1.5096732117967646e-05,nested artificial training-label deletion; actual test responses
+0.3,fv_continued,0.17472366953044527,1.7268648144370332e-05,nested artificial training-label deletion; actual test responses

@@ -1,0 +1,13 @@
+﻿family,RNA_context,endpoint,targets,spearman,CI_low,CI_high,direction,scope
+hierarchical_pooled,Rest,IL10,9,-0.26666666666666666,-0.9393939393939394,0.4737107921318446,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+hierarchical_pooled,Rest,IL21,9,0.08333333333333334,-0.7368421052631579,0.7436440677966096,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+hierarchical_pooled,Stim8hr,IL10,9,0.6333333333333333,-0.3157894736842105,0.9999999999999998,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+hierarchical_pooled,Stim8hr,IL21,9,0.33333333333333337,-0.5789473684210527,0.9304347826086957,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+hierarchical_pooled,Stim48hr,IL10,9,0.3666666666666667,-0.5439424031777558,0.9266546526867624,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+hierarchical_pooled,Stim48hr,IL21,9,0.5499999999999999,-0.33944954128440363,1.0,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Rest,IL10,9,-0.26666666666666666,-0.9393939393939394,0.4737107921318446,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Rest,IL21,9,0.08333333333333334,-0.7368421052631579,0.7436440677966096,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Stim8hr,IL10,9,0.6333333333333333,-0.3157894736842105,0.9999999999999998,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Stim8hr,IL21,9,0.33333333333333337,-0.5789473684210527,0.9304347826086957,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Stim48hr,IL10,9,0.3666666666666667,-0.5439424031777558,0.9266546526867624,0.3333333333333333,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"
+fv_continued,Stim48hr,IL21,9,0.5666666666666667,-0.33944954128440363,1.0,0.2222222222222222,"same-study preselected panel; extra assay/donors, not independent study; timings not harmonized"

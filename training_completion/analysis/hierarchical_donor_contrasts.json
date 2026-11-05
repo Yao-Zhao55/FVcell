@@ -1,0 +1,98 @@
+{
+  "fixed_gaussian": {
+    "absolute_MAE_reduction": 4.149923891333396e-07,
+    "four_donor_reductions": [
+      -3.2615917050504706e-07,
+      4.4494256773441876e-07,
+      2.045508988302025e-07,
+      1.3366352604737841e-06
+    ],
+    "exact_sign_flip_p": 0.375,
+    "descriptive_donor_bootstrap_95CI": [
+      -1.333837359451806e-07,
+      1.0536141700628887e-06
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.75
+  },
+  "unshrunk_offsets": {
+    "absolute_MAE_reduction": -9.219522850073547e-06,
+    "four_donor_reductions": [
+      -6.15731151051846e-05,
+      -2.86458446185911e-07,
+      1.4946193360954041e-05,
+      1.0035288790122276e-05
+    ],
+    "exact_sign_flip_p": 0.875,
+    "descriptive_donor_bootstrap_95CI": [
+      -4.367101413135788e-05,
+      1.2490741075538159e-05
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.875
+  },
+  "fv_continued": {
+    "absolute_MAE_reduction": -8.152116327424241e-06,
+    "four_donor_reductions": [
+      -1.73133868969777e-05,
+      -5.811815307177337e-06,
+      -3.250197222470774e-08,
+      -9.45076113331722e-06
+    ],
+    "exact_sign_flip_p": 0.125,
+    "descriptive_donor_bootstrap_95CI": [
+      -1.443799399952761e-05,
+      -2.387066762497836e-06
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.75
+  },
+  "previous_fv": {
+    "absolute_MAE_reduction": -0.0005187251685011066,
+    "four_donor_reductions": [
+      -0.00011185673087527048,
+      -0.0006753441466903765,
+      -0.0008205711240180658,
+      -0.00046712867242071354
+    ],
+    "exact_sign_flip_p": 0.125,
+    "descriptive_donor_bootstrap_95CI": [
+      -0.0007479576353542211,
+      -0.000252728584829047
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.75
+  },
+  "previous_concat": {
+    "absolute_MAE_reduction": 0.0008411205635318469,
+    "four_donor_reductions": [
+      0.00039677717318642447,
+      0.0023324359890495305,
+      0.000367585396199549,
+      0.00026768369569188377
+    ],
+    "exact_sign_flip_p": 0.125,
+    "descriptive_donor_bootstrap_95CI": [
+      0.00029995706506551895,
+      0.0018412233408370351
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.75
+  },
+  "previous_state_official": {
+    "absolute_MAE_reduction": 0.000411190330356595,
+    "four_donor_reductions": [
+      0.0002644407000133575,
+      0.0005595607207221076,
+      0.0007961846972557307,
+      2.4575203435184267e-05
+    ],
+    "exact_sign_flip_p": 0.125,
+    "descriptive_donor_bootstrap_95CI": [
+      0.0001445079517242709,
+      0.0006778727089889192
+    ],
+    "statistical_warning": "n=4; exact numerical enumeration of 16 sign flips assumes sign symmetry. Overlapping CV training can violate independence; p and bootstrap intervals are descriptive, not guaranteed inferential tests or clinical/population precision.",
+    "exploratory_Holm_p": 0.75
+  }
+}
