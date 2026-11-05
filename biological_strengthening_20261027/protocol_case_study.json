@@ -1,0 +1,21 @@
+{
+  "study_type": "post-hoc mechanistic illustration selected from user-supplied publications; not independent confirmation",
+  "timing": "fixed after source target/gene/count availability inspection but before reading selected response outcomes",
+  "targets": ["BCL9", "BCL9L"],
+  "source_observations": "all eligible original donor x culture aggregates, 2 targets x 4 donors x 3 cultures",
+  "prediction_evaluation": "existing frozen fold 0 held donor CE0008678, all 3 cultures and all source seeds 11/29/47",
+  "families": ["hierarchical", "fixed_gaussian", "fv_continued", "concat_original_P1", "zero", "source_training_mean", "source_same_target_mean"],
+  "modules": {
+    "PIAS_transcript_hypothesis": {"genes": ["PIAS1", "PIAS2", "PIAS4"], "hypothesized_sign": -1},
+    "Th1_cytotoxic_RNA_proxy": {"genes": ["TBX21", "IFNG", "CXCR3", "GZMA", "GZMB", "PRF1"], "hypothesized_sign": 1}
+  },
+  "module_statistic": "equal mean of available member-gene delta log2(1+CPM); report every gene and coverage, no DE or effect-size filtering",
+  "metrics": ["full output MAE", "module MAE", "module predicted and observed means", "individual member-gene response"],
+  "RNA_hypothesis_limit": "Proxy signs are hypotheses when transported to human single-gene CRISPRi; mouse double-knockout or hsBCL9 Z96 phenotypes do not establish their human response signs.",
+  "forbidden_equivalences": ["STAT RNA equals phospho-STAT activity", "single CRISPRi equals double knockout", "hsBCL9 Z96 equals ZD37-28R", "RNA module equals tumor killing", "T-cell response equals glioma response", "cell aggregate equals organ or clinical response"],
+  "glioma_coverage_only": ["MYC", "SREBF1", "ACACA", "ACLY", "SCD", "AXIN2"],
+  "ambiguous_label_not_scored": "TCF4 in Wnt literature can refer to TCF7L2, distinct from official TCF4/E2-2; verify original reagent and sequence IDs before mechanistic edge mapping",
+  "no_model_refitting_or_hyperparameter_selection": true,
+  "no_confirmatory_p_values_or_population_CI": true,
+  "retain_existing_full_benchmark_and_external_negative_results": true
+}
