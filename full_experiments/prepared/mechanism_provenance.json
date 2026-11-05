@@ -1,0 +1,10 @@
+{
+  "source_url": "https://reactome.org/download/current/Ensembl2Reactome.txt",
+  "download_date": "2026-10-26",
+  "sha256": "34852dc2ac258a851bad914708c0045a636161dbbeca604f04343174cca8d7fb",
+  "human_edges": 56031,
+  "eligible_target_edges": 29344,
+  "accepted_degree_preserving_swaps": 138549,
+  "unsigned_membership_does_not_define_expression_direction": true,
+  "labels_or_external_perturbation_effects_used": false
+}

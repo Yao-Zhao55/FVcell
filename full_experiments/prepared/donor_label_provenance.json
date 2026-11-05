@@ -1,0 +1,30 @@
+{
+  "source_receipt": {
+    "asset": "pseudobulk",
+    "bytes": 44566657140,
+    "etag": "\"010c14e0af0dccbc2524529d28ca517e-5313\"",
+    "sha256": "fd2b8c21d357f8699ec34e2d5ebc1639612c27a0147a9ca94d4983822d93247e",
+    "validation": "pinned S3 object ETag on every range, per-chunk SHA256, complete size and HDF5 signature; source multipart ETag is not a published MD5"
+  },
+  "unit": "log2(1+CPM_target)-log2(1+CPM_matched_NTC)",
+  "normalization_library": "sum over all 18129 published genes before transformation",
+  "gene_universe": "all published pseudobulk reference genes; no pooled DE HVG subset",
+  "sample_filter": "n_cells >= 5; nonnegative finite counts; positive aggregated library; no effect/significance filtering",
+  "not_used": [
+    "keep_effective_guides",
+    "keep_for_DE",
+    "keep_test_genes",
+    "pooled_DE_effects"
+  ],
+  "precision": "float32 accumulation and transformed cache; library totals float64",
+  "donor_assignment": {
+    "CE0008678": "test",
+    "CE0010866": "validation",
+    "CE0008162": "train",
+    "CE0006864": "train"
+  },
+  "rows": 129671,
+  "targets": 11086,
+  "genes": 18129,
+  "limitation": "published curated target annotations and primary target coverage universe retained; not raw re-alignment or re-curation"
+}
