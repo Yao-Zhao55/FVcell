@@ -1,6 +1,6 @@
 {
   "title": "FVcell public repository ready tree",
-  "status": "local staging; no GitHub publication yet",
+  "status": "published on GitHub",
   "files": [
     {
       "path": "biological_strengthening_20261027/analyze_bcl9_case.py",
@@ -17,8 +17,8 @@
     {
       "path": "data_sources_analysis_20261105/build_updated_manuscript.py",
       "source_package": "code",
-      "bytes": 20920,
-      "sha256": "c688c50744da9c56b46c27419e4a7f7473e9cc7666a5e065f7c8804f4276900c"
+      "bytes": 21359,
+      "sha256": "fc1a5de6fee0a2b5c2865b39c24fe77d8bab36d313801b9c9369c206ac88f7a0"
     },
     {
       "path": "data_sources_analysis_20261105/inspect_sources.py",
@@ -1544,5 +1544,7 @@
   "no_large_original_matrices": true,
   "no_group_raw_assays": true,
   "no_third_party_state_source": true,
-  "no_license_selected": true
+  "no_license_selected": true,
+  "public_repository": "https://github.com/Yao-Zhao55/FVcell",
+  "frozen_baseline_commit": "dec9b0e0a2f2053f94404d65f78dd364c8ccdc5b"
 }
