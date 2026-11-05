@@ -1,0 +1,19 @@
+{
+  "available": true,
+  "source_rows": 33983,
+  "eligible_rows": 33258,
+  "eligible_targets": 11086,
+  "excluded_rows": 725,
+  "combo_counts": {
+    "train": 28876,
+    "test": 2245,
+    "validation": 2137
+  },
+  "global_target_counts": {
+    "train": 19572,
+    "validation": 6981,
+    "test": 6705
+  },
+  "checksum": "bc2801ee1a532b4a6e24b4d79a8c6adf2ffff6b3",
+  "full_effect_labels_local": false
+}

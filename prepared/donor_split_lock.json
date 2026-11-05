@@ -1,0 +1,12 @@
+{
+  "seed": "fvcell-v2-20261025-protocol-1",
+  "assignment": {
+    "CE0008678": "test",
+    "CE0010866": "validation",
+    "CE0008162": "train",
+    "CE0006864": "train"
+  },
+  "evaluation_status": "not_activated_no_donor_resolved_effect_labels",
+  "pooled_DE_stats_cannot_be_assigned_to_one_donor": true,
+  "all_tissues_and_technical_replicates_of_donor_must_share_partition": true
+}

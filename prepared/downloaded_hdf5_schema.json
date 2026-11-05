@@ -1,0 +1,240 @@
+{
+  "de_stats": {
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "obs_columns": [
+      "chunk",
+      "culture_condition",
+      "distal_offtarget_flag",
+      "donor_correlation_all_mean",
+      "donor_correlation_all_min",
+      "donor_correlation_hits_mean",
+      "donor_correlation_hits_min",
+      "guide_correlation_all",
+      "guide_correlation_all_pval",
+      "guide_correlation_signif",
+      "guide_correlation_signif_pval",
+      "guide_n_signif_ontarget",
+      "index",
+      "low_target_gex",
+      "n_cells_target",
+      "n_down_genes",
+      "n_downstream",
+      "n_guides",
+      "n_total_de_genes",
+      "n_total_genes_category",
+      "n_up_genes",
+      "neighboring_gene_KD",
+      "ontarget_effect_size",
+      "ontarget_significant",
+      "single_guide_estimate",
+      "target_baseMean",
+      "target_contrast",
+      "target_contrast_gene_name"
+    ],
+    "obs_count": 33983,
+    "gene_count": 10282,
+    "gene_examples": [
+      "ENSG00000000419",
+      "ENSG00000000457",
+      "ENSG00000000460",
+      "ENSG00000000971",
+      "ENSG00000001036"
+    ],
+    "layers": {
+      "adj_p_value": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      },
+      "baseMean": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      },
+      "lfcSE": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      },
+      "log_fc": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      },
+      "p_value": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      },
+      "zscore": {
+        "shape": [
+          33983,
+          10282
+        ],
+        "encoding": "array"
+      }
+    },
+    "metadata_examples": {
+      "culture_condition": {
+        "unique_count": 3,
+        "examples": [
+          "Rest",
+          "Stim48hr",
+          "Stim8hr"
+        ],
+        "control_like_values": []
+      },
+      "target_contrast": {
+        "unique_count": 11526,
+        "examples": [
+          "ENSG00000121410",
+          "ENSG00000175899",
+          "ENSG00000094914",
+          "ENSG00000081760",
+          "ENSG00000103591",
+          "ENSG00000115977",
+          "ENSG00000087884",
+          "ENSG00000131043"
+        ],
+        "control_like_values": []
+      }
+    },
+    "X": {
+      "shape": null,
+      "encoding": "null"
+    }
+  },
+  "pseudobulk": {
+    "root_keys": [
+      "X",
+      "layers",
+      "obs",
+      "obsm",
+      "obsp",
+      "uns",
+      "var",
+      "varm",
+      "varp"
+    ],
+    "obs_columns": [
+      "10xrun_id",
+      "_index",
+      "culture_condition",
+      "donor_id",
+      "guide_id",
+      "guide_type",
+      "keep_effective_guides",
+      "keep_for_DE",
+      "keep_min_cells",
+      "keep_test_genes",
+      "keep_total_counts",
+      "log10_n_cells",
+      "n_cells",
+      "perturbed_gene_id",
+      "perturbed_gene_name",
+      "total_counts"
+    ],
+    "obs_count": 278684,
+    "gene_count": 18129,
+    "gene_examples": [
+      "CUSTOM001_PuroR",
+      "ENSG00000000003",
+      "ENSG00000000005",
+      "ENSG00000000419",
+      "ENSG00000000457"
+    ],
+    "layers": {},
+    "metadata_examples": {
+      "culture_condition": {
+        "unique_count": 3,
+        "examples": [
+          "Stim48hr",
+          "Stim8hr",
+          "Rest"
+        ],
+        "control_like_values": []
+      },
+      "donor_id": {
+        "unique_count": 4,
+        "examples": [
+          "CE0008162",
+          "CE0006864",
+          "CE0008678",
+          "CE0010866"
+        ],
+        "control_like_values": []
+      },
+      "perturbed_gene_id": {
+        "unique_count": 12731,
+        "examples": [
+          "ENSG00000121410",
+          "ENSG00000175899",
+          "ENSG00000094914",
+          "ENSG00000081760",
+          "ENSG00000103591",
+          "ENSG00000115977",
+          "ENSG00000087884",
+          "ENSG00000127837"
+        ],
+        "control_like_values": [
+          "NTC"
+        ]
+      },
+      "perturbed_gene_name": {
+        "unique_count": 12731,
+        "examples": [
+          "A1BG",
+          "A2M",
+          "AAAS",
+          "AACS",
+          "AAGAB",
+          "AAK1",
+          "AAMDC",
+          "AAMP"
+        ],
+        "control_like_values": [
+          "KNTC1",
+          "NTC"
+        ]
+      },
+      "guide_type": {
+        "unique_count": 2,
+        "examples": [
+          "targeting",
+          "non-targeting"
+        ],
+        "control_like_values": [
+          "targeting",
+          "non-targeting"
+        ]
+      }
+    },
+    "X": {
+      "shape": [
+        278684,
+        18129
+      ],
+      "encoding": "csr_matrix"
+    }
+  }
+}

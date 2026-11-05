@@ -1,0 +1,52 @@
+[
+  {
+    "source_file": "S8_perturb_seq_activation_scoring_summary_table.xlsx",
+    "rows": 116,
+    "columns": [
+      "sg_target",
+      "median.activation.score",
+      "mean.activation.score",
+      "HTO_maxID",
+      "statistic",
+      "p.value",
+      "method",
+      "alternative",
+      "stars",
+      "padj"
+    ],
+    "finite_padj": 112,
+    "padj_le_01": 53,
+    "padj_gt_01": 59,
+    "source_role": "transcriptome_derived_activation_summary_not_independent_functional_validation",
+    "contexts": [
+      "Resting-Teff",
+      "Resting-Treg",
+      "Stimulated-Teff",
+      "Stimulated-Treg"
+    ],
+    "targets": 29
+  },
+  {
+    "source_file": "S9_pseudobulk_rnaseq_diff_expressed_regulators.xlsx",
+    "rows": 705,
+    "columns": [
+      "gene_name",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj",
+      "KO",
+      "cell_type",
+      "stimulation"
+    ],
+    "finite_padj": 705,
+    "padj_le_01": 705,
+    "padj_gt_01": 0,
+    "targets": 23,
+    "response_genes": 94,
+    "source_role": "significance_selected_mechanistic_support_only",
+    "eligible_complete_response_gold": false
+  }
+]

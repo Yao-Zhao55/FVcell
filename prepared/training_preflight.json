@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-10-25T22:27:02.691780+08:00",
+  "formal_training_ready": false,
+  "training_started": false,
+  "frozen_hash_checks": {
+    "protocol_v1_frozen.json": true,
+    "data_schema_v1.json": true,
+    "condition_and_global_target_splits.csv": true,
+    "donor_split_lock.json": true,
+    "functional_holdout_lock.json": true
+  },
+  "assets": {
+    "de_stats": {
+      "verified_complete": false,
+      "required_bytes": 16786240107
+    },
+    "pseudobulk": {
+      "verified_complete": false,
+      "required_bytes": 44566657140
+    }
+  },
+  "blockers": [
+    "de_stats: full verified data not local",
+    "pseudobulk: full verified data not local",
+    "Actual gene IDs, effect layers, controls and finite observation mask have not been validated"
+  ],
+  "download_status": {
+    "asset": "de_stats",
+    "file": "D:\\AI_virtual_cell_project\\research\\FVcell_v2\\day25_26\\large_data\\GWCD4i.DE_stats.h5ad",
+    "expected_bytes": 16786240107,
+    "verified_downloaded_bytes": 23068672,
+    "percent": 0.1374,
+    "current_session_bytes_per_second": 34858.5,
+    "state": "downloading",
+    "error": null,
+    "partial_file_is_preallocated_not_complete": true,
+    "updated_epoch": 1792938198.6166053,
+    "remaining_asset": "pseudobulk"
+  },
+  "next_step": "finish verified downloads, inspect HDF5 schema and controls, freeze gene IDs, then implement and run baselines with training-only fitting"
+}

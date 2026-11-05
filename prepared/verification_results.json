@@ -1,0 +1,8 @@
+{
+  "actual_data_split_checks": "passed",
+  "protected_files_checked": 98,
+  "protected_files_unchanged": true,
+  "eligible_rows": 33258,
+  "targets": 11086,
+  "no_model_training_or_biological_accuracy_claim": true
+}

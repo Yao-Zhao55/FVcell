@@ -1,0 +1,82 @@
+{
+  "small_tables": [
+    {
+      "source_file": "S8_perturb_seq_activation_scoring_summary_table.xlsx",
+      "rows": 116,
+      "columns": [
+        "sg_target",
+        "median.activation.score",
+        "mean.activation.score",
+        "HTO_maxID",
+        "statistic",
+        "p.value",
+        "method",
+        "alternative",
+        "stars",
+        "padj"
+      ],
+      "finite_padj": 112,
+      "padj_le_01": 53,
+      "padj_gt_01": 59,
+      "source_role": "transcriptome_derived_activation_summary_not_independent_functional_validation",
+      "contexts": [
+        "Resting-Teff",
+        "Resting-Treg",
+        "Stimulated-Teff",
+        "Stimulated-Treg"
+      ],
+      "targets": 29
+    },
+    {
+      "source_file": "S9_pseudobulk_rnaseq_diff_expressed_regulators.xlsx",
+      "rows": 705,
+      "columns": [
+        "gene_name",
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj",
+        "KO",
+        "cell_type",
+        "stimulation"
+      ],
+      "finite_padj": 705,
+      "padj_le_01": 705,
+      "padj_gt_01": 0,
+      "targets": 23,
+      "response_genes": 94,
+      "source_role": "significance_selected_mechanistic_support_only",
+      "eligible_complete_response_gold": false
+    }
+  ],
+  "primary_samples": 12,
+  "primary_donors": 4,
+  "atlas_libraries": 654,
+  "atlas_declared_donors": 24,
+  "atlas_pooled_tissue_libraries": 625,
+  "functional_measurement_rows": 103,
+  "condition_index": {
+    "available": true,
+    "source_rows": 33983,
+    "eligible_rows": 33258,
+    "eligible_targets": 11086,
+    "excluded_rows": 725,
+    "combo_counts": {
+      "train": 28876,
+      "test": 2245,
+      "validation": 2137
+    },
+    "global_target_counts": {
+      "train": 19572,
+      "validation": 6981,
+      "test": 6705
+    },
+    "checksum": "bc2801ee1a532b4a6e24b4d79a8c6adf2ffff6b3",
+    "full_effect_labels_local": false
+  },
+  "storage_decision": "local_two_required_processed_files_61352897247_bytes_under_100GB_cloud_deferred",
+  "complete_effect_matrix_status": "download_status_json_is_authoritative_not_yet_activated_as_gold",
+  "pseudobulk_status": "download_status_json_is_authoritative_pending_control_and_donor_checks"
+}

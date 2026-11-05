@@ -1,0 +1,69 @@
+{
+  "protocol_id": "FVcell-v2-day25_26-v1",
+  "freeze_date": "2026-10-25",
+  "seed": "fvcell-v2-20261025-protocol-1",
+  "scope": "ex_vivo_primary_CD4_T_cell_context_response_transfer",
+  "title": "FVcell: Context-Conditioned Perturbation Response Transfer in Primary T Cells",
+  "primary_study": "GSE314342",
+  "primary_action": "CRISPRi_not_complete_gene_knockout",
+  "contexts": [
+    "Rest",
+    "Stim8hr",
+    "Stim48hr"
+  ],
+  "primary_supervised_unit": "published_DESeq2_log2FC_all_assayed_genes",
+  "gene_universe_rule": "all measured genes in pinned primary DE artifact var; no target-response-driven HVG/top-DEG selection",
+  "gene_id_manifest_status": "pending_var_extraction_before_training",
+  "primary_metric": "unweighted_signed_log2FC_MAE_macro_by_context_then_target",
+  "secondary_metrics": [
+    "signed_delta_Pearson_with_constant_vector_NA",
+    "direction_accuracy_deadzone_abs_truth_0.1_log2FC",
+    "average_precision_DEG_FDR_0.1_with_prevalence"
+  ],
+  "primary_partition": "unseen_context_target_combination",
+  "primary_partition_permissions": "P2 permits other training contexts of the same target; no held-out condition response",
+  "P1_requires_independent_non_targeting_baseline_not_baseMean": true,
+  "global_unseen_target": "secondary_all_sources_remove_held_target_effects_and_teacher_predictions",
+  "donor_test_status": "prospective_only_until_donor_resolved_labels_exist",
+  "external_study_status": "not_activated_significance_only_S9_cannot_supply_complete_gold",
+  "function_test": "locked measured IL10_IL21 percentages, independent assay not independent study; no results claimed",
+  "excluded_predictors": [
+    "n_up_genes",
+    "n_down_genes",
+    "n_total_de_genes",
+    "n_downstream",
+    "ontarget_effect_size",
+    "guide_correlation_all",
+    "donor_correlation_all_mean",
+    "test_condition_baseMean",
+    "test_significant_gene_lists"
+  ],
+  "pretrained_existing_npz_role": "read_only_provenance_audit_only_not_teacher_or_gold_due_pooled_test_exposure_and_selection",
+  "gold_readiness_gate": [
+    "all_gene_effect_labels_obtained_and_validated",
+    "control_definition_confirmed_from_author_analysis",
+    "effect_units_verified",
+    "training_only_fit_of_transformations",
+    "variable_gene_manifest_frozen_before_model_training"
+  ],
+  "baselines": [
+    "zero_response",
+    "training_global_mean",
+    "same_target_other_context_mean_P2",
+    "ridge_or_low_rank_linear",
+    "capacity_matched_context_MLP",
+    "task_matched_reproducible_strong_baseline"
+  ],
+  "organ_and_dynamic_claims": "not_in_primary_claims_without_matched_organ_perturbation_or_longitudinal_gold",
+  "author_control_audit": {
+    "control_semantics": "non_targeting_guide",
+    "source_code_default_literal": "NO-TARGET",
+    "source_validation_table_literal": "NTC",
+    "pseudobulk_literal_status": "must_resolve_from_downloaded_obs_before_labels_activated",
+    "contrast": "target_minus_control_within_culture_condition",
+    "author_design": "~ log10_n_cells + donor_id + target",
+    "donor_covariate_is_not_donor_resolved_gold": true,
+    "author_upstream_n_hvgs": 10000,
+    "upstream_feature_selection_limitation": "published artifact includes author feature selection; no claim of independently training-only selected gene universe"
+  }
+}

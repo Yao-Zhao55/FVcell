@@ -1,0 +1,53 @@
+{
+  "source": "GSE314342 author supplementary IL10_IL21_arrayed_validation_combined.csv",
+  "rows": 103,
+  "donors": [
+    "Donor10",
+    "Donor5",
+    "Donor6",
+    "Donor7",
+    "Donor8",
+    "Donor9",
+    "DonorA",
+    "DonorB",
+    "DonorC",
+    "DonorD",
+    "DonorF",
+    "DonorG",
+    "DonorH"
+  ],
+  "endpoint_columns": [
+    "IL10_perc",
+    "IL21_perc"
+  ],
+  "control_column": "Perturbation",
+  "control_value": "NTC",
+  "role": "independent_assay_and_donors_within_primary_study_not_independent_study",
+  "source_perturbations": [
+    "ATP2A2-2",
+    "ATP2A2-3",
+    "CYB5R4-2",
+    "CYB5R4-3",
+    "ELOB-1",
+    "ELOB-3",
+    "GATA3-1",
+    "GATA3-3",
+    "KDM1A-1",
+    "KDM1A-3",
+    "MED24-1",
+    "MED24-3",
+    "MEN1-1",
+    "MEN1-3",
+    "NFKB2-1",
+    "NFKB2-3",
+    "NTC",
+    "NTC1",
+    "NTC2",
+    "NTC3",
+    "SGF29-1",
+    "SGF29-4"
+  ],
+  "labels_not_used_in_training_or_model_selection": true,
+  "prospective_test_only_no_model_results_computed": true,
+  "not_identical_endpoint_to_transcriptome_delta": true
+}

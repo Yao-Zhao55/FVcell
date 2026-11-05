@@ -1,0 +1,12 @@
+{
+  "protocol_version": "FVcell-v2-day25_26-v1",
+  "freeze_date": "2026-10-25",
+  "status": "split_and_protocol_frozen_effect_labels_not_yet_activated",
+  "sha256": {
+    "protocol_v1_frozen.json": "5d74e191049bd8027fa4e083a7436d3144a8791328535d3c9497e86e4fe402b8",
+    "data_schema_v1.json": "967e4d93730f2bb1037f2de20a7e120b7f60b116c5fc0d3f06fc4f855d04b5b6",
+    "condition_and_global_target_splits.csv": "7a9f9a0120e3b5fda05106019a29b1804ba025ff6a7ec0873104b6b7523ace5a",
+    "donor_split_lock.json": "9334b74bd37431befc5359687ac64bc1d012cdb9d103f650a19478e7eec142b2",
+    "functional_holdout_lock.json": "d3743b891daa8a15b26d33ada151cf2bb1586e92214b27dbd614508c61a67c37"
+  }
+}
