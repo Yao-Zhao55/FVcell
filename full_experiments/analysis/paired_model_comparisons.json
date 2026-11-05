@@ -1,0 +1,189 @@
+{
+  "E1_donor_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.0005086339040617326,
+    "target_cluster_bootstrap_95_CI": [
+      0.0004865628103054745,
+      0.0005314792198817346
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_donor_P1_fold1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.0030077801357399053,
+    "target_cluster_bootstrap_95_CI": [
+      0.002987448265924605,
+      0.003029060961533601
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_donor_P1_fold2": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.0011881565202175308,
+    "target_cluster_bootstrap_95_CI": [
+      0.0011663418293816118,
+      0.0012098197465744635
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_donor_P1_fold3": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.000734812368112573,
+    "target_cluster_bootstrap_95_CI": [
+      0.0007198338786512526,
+      0.0007503057137929843
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_donor_P2": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.00017367792041441887,
+    "target_cluster_bootstrap_95_CI": [
+      0.0001336453519771768,
+      0.00021653967201497673
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_external_study_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.0863129890681546,
+    "target_cluster_bootstrap_95_CI": [
+      0.08506240600348444,
+      0.08754937122868538
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_global_target_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -3.235650825517058e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -4.336914206345413e-05,
+      -2.0758182015270454e-05
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E1_P2_combo": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 0.00012464307985395723,
+    "target_cluster_bootstrap_95_CI": [
+      9.252316650407612e-05,
+      0.000155578329171454
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E2_P0_combo": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -2.421655789929112e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -4.16289479850301e-05,
+      -6.596353263881984e-06
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E2_P1_combo": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -4.6800578092234135e-06,
+    "target_cluster_bootstrap_95_CI": [
+      -2.18047065296662e-05,
+      1.2219425162484238e-05
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E2_strict_P0": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -3.4764112790055705e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -4.909644396434306e-05,
+      -2.0591304863357415e-05
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E2_strict_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -4.103207344877683e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -5.1467083057486514e-05,
+      -3.0215568750038783e-05
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E2_strict_P2": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 5.79633879207505e-05,
+    "target_cluster_bootstrap_95_CI": [
+      1.432020379040385e-05,
+      0.0001004594775388813
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E3_external_non_primary_T": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -0.0011412300237880584,
+    "target_cluster_bootstrap_95_CI": [
+      -0.0012953220401517715,
+      -0.0009721318732291122
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E3_external_targeted": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": -0.0004345148622831144,
+    "target_cluster_bootstrap_95_CI": [
+      -0.000587514367623336,
+      -0.000270526489491408
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E5_functional_targets_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 7.057643705857675e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -0.00010301765894965425,
+      0.0002864556889826254
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  },
+  "E5_functional_targets_strict_P1": {
+    "contrast": "concat MAE minus FV MAE; positive favors FV",
+    "absolute_reduction": 2.918325301351087e-05,
+    "target_cluster_bootstrap_95_CI": [
+      -0.0001953968833234249,
+      0.0002892717360476706
+    ],
+    "resamples": 2000,
+    "fixed_seed_averaged_losses_not_ensemble_prediction_loss": true,
+    "biological_replicate_warning": "conditional on the published cohort/fixed test donor; target clusters are not new independent human donors; multiple contrasts descriptive, not multiplicity-controlled significance claims"
+  }
+}

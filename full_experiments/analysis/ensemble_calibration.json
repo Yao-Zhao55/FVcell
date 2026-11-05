@@ -1,0 +1,62 @@
+{
+  "fv": {
+    "by_context": {
+      "Rest": {
+        "calibration_rows": 377,
+        "calibration_order_stat_rank": 341,
+        "simultaneous_response_vector_coverage": 0.9024390243902439,
+        "coordinate_coverage": 0.9999902479087036,
+        "mean_interval_width": 14.182939529418945,
+        "nominal": 0.9
+      },
+      "Stim48hr": {
+        "calibration_rows": 327,
+        "calibration_order_stat_rank": 296,
+        "simultaneous_response_vector_coverage": 0.9102402022756005,
+        "coordinate_coverage": 0.9999910242907284,
+        "mean_interval_width": 13.526387214660645,
+        "nominal": 0.9
+      },
+      "Stim8hr": {
+        "calibration_rows": 379,
+        "calibration_order_stat_rank": 342,
+        "simultaneous_response_vector_coverage": 0.8938547486033519,
+        "coordinate_coverage": 0.9999895407606068,
+        "mean_interval_width": 14.57988452911377,
+        "nominal": 0.9
+      }
+    },
+    "guarantee": "empirical coverage only; cross-condition/target dependence and donor shift do not establish exchangeability",
+    "calibration_targets_not_used_for_early_stopping_or_model_selection": true
+  },
+  "concat": {
+    "by_context": {
+      "Rest": {
+        "calibration_rows": 377,
+        "calibration_order_stat_rank": 341,
+        "simultaneous_response_vector_coverage": 0.907859078590786,
+        "coordinate_coverage": 0.9999907750487737,
+        "mean_interval_width": 14.226287841796875,
+        "nominal": 0.9
+      },
+      "Stim48hr": {
+        "calibration_rows": 327,
+        "calibration_order_stat_rank": 296,
+        "simultaneous_response_vector_coverage": 0.9102402022756005,
+        "coordinate_coverage": 0.9999910242907284,
+        "mean_interval_width": 13.534629821777344,
+        "nominal": 0.9
+      },
+      "Stim8hr": {
+        "calibration_rows": 379,
+        "calibration_order_stat_rank": 342,
+        "simultaneous_response_vector_coverage": 0.8952513966480447,
+        "coordinate_coverage": 0.9999896765948846,
+        "mean_interval_width": 14.58098316192627,
+        "nominal": 0.9
+      }
+    },
+    "guarantee": "empirical coverage only; cross-condition/target dependence and donor shift do not establish exchangeability",
+    "calibration_targets_not_used_for_early_stopping_or_model_selection": true
+  }
+}

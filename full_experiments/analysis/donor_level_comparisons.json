@@ -1,0 +1,62 @@
+{
+  "concat": {
+    "paired_held_donor_MAE_reduction": 0.0013598457320329257,
+    "four_donor_values": {
+      "CE0006864": 0.0007348123681125696,
+      "CE0008162": 0.0011881565202175315,
+      "CE0008678": 0.000508633904061695,
+      "CE0010866": 0.003007780135739907
+    },
+    "exact_16_sign_flip_two_sided_p": 0.125,
+    "descriptive_256_donor_bootstrap_95CI": [
+      0.0006217231360871323,
+      0.0024395381938330726
+    ],
+    "caution": "Only four biological donors; overlapping crossvalidation training sets and upstream curated target selection remain; no large-population or independent-study guarantee"
+  },
+  "shared": {
+    "paired_held_donor_MAE_reduction": 0.0013185997116294118,
+    "four_donor_values": {
+      "CE0006864": 0.0012103812823354987,
+      "CE0008162": 0.0014986912043538636,
+      "CE0008678": 0.0015670901976380658,
+      "CE0010866": 0.0009982361621902192
+    },
+    "exact_16_sign_flip_two_sided_p": 0.125,
+    "descriptive_256_donor_bootstrap_95CI": [
+      0.001104308722262859,
+      0.0015328907009959647
+    ],
+    "caution": "Only four biological donors; overlapping crossvalidation training sets and upstream curated target selection remain; no large-population or independent-study guarantee"
+  },
+  "ridge": {
+    "paired_held_donor_MAE_reduction": 0.005706704528855827,
+    "four_donor_values": {
+      "CE0006864": 0.007214782609780174,
+      "CE0008162": 0.0052931466849355235,
+      "CE0008678": 0.005291811165301474,
+      "CE0010866": 0.005027077655406137
+    },
+    "exact_16_sign_flip_two_sided_p": 0.125,
+    "descriptive_256_donor_bootstrap_95CI": [
+      0.005093594912788484,
+      0.006734039748660499
+    ],
+    "caution": "Only four biological donors; overlapping crossvalidation training sets and upstream curated target selection remain; no large-population or independent-study guarantee"
+  },
+  "state_official": {
+    "paired_held_donor_MAE_reduction": 0.0009299154988577155,
+    "four_donor_values": {
+      "CE0006864": 0.00049170387585587,
+      "CE0008162": 0.0016167558212737687,
+      "CE0008678": 0.0003762974308886835,
+      "CE0010866": 0.0012349048674125396
+    },
+    "exact_16_sign_flip_two_sided_p": 0.125,
+    "descriptive_256_donor_bootstrap_95CI": [
+      0.0004340006533722768,
+      0.0014258303443431541
+    ],
+    "caution": "Only four biological donors; overlapping crossvalidation training sets and upstream curated target selection remain; no large-population or independent-study guarantee"
+  }
+}

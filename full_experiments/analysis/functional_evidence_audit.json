@@ -1,0 +1,44 @@
+{
+  "flow_rows": 103,
+  "matched_perturbed_measurements": 75,
+  "flow_donors": 13,
+  "functional_donor_ids_resolved": 13,
+  "donor_overlap_with_primary": [],
+  "gene_targets": 9,
+  "role": "independent measured assay and resolved additional donors within same study; not independent study",
+  "assay_contexts_or_time_not_asserted_identical_to_RNA_contexts": true,
+  "all_RNA_contexts_reported_not_selected_using_flow_labels": true,
+  "preselected_validation_targets_are_not_an_unbiased_genome_wide_functional_test": true,
+  "RNA_targets_removed_from_all_training_and_selection": {
+    "target_symbols": [
+      "ATP2A2",
+      "CYB5R4",
+      "ELOB",
+      "GATA3",
+      "KDM1A",
+      "MED24",
+      "MEN1",
+      "NFKB2",
+      "SGF29"
+    ],
+    "mapped_target_ids": [
+      "ENSG00000004487",
+      "ENSG00000008838",
+      "ENSG00000065615",
+      "ENSG00000077150",
+      "ENSG00000103363",
+      "ENSG00000107485",
+      "ENSG00000133895",
+      "ENSG00000174437",
+      "ENSG00000176476"
+    ],
+    "RNA_test_conditions": [
+      "Rest",
+      "Stim48hr",
+      "Stim8hr"
+    ],
+    "protein_labels_used_for_training_or_selection": false,
+    "RNA_effects_of_functional_targets_removed_from_all_training_and_selection": true,
+    "assay_contexts_not_assumed_identical": true
+  }
+}
